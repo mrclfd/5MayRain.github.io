@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>使用Hexo+GitHub搭建个人网站（1、本地安装）</title>
-    <url>/posts/Hexo/cka3s5v9y0000agui5l1hec8h/</url>
+    <url>/posts/Hexo/cka3sob9c0000fcui3ocag7kh/</url>
     <content><![CDATA[<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页</p>
 <h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol>
 <li>全是静态文件，访问速度快；</li>
@@ -36,7 +36,7 @@
   </entry>
   <entry>
     <title>使用Hexo+GitHub搭建个人网站（2、部署）</title>
-    <url>/posts/Hexo/cka3s5va90002aguibalncg1u/</url>
+    <url>/posts/Hexo/cka3sob9k0001fcui2onq8m7m/</url>
     <content><![CDATA[<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p>GitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名GitHub。</p>
 <h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>一个GitHub账号，没有就去注册 <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></p>
 <h3 id="一、创建仓库"><a href="#一、创建仓库" class="headerlink" title="一、创建仓库"></a>一、创建仓库</h3><p><img src="/img/posts/2020.05.12/05.png" alt=""></p>
@@ -82,7 +82,7 @@
   </entry>
   <entry>
     <title>Hexo常用命令</title>
-    <url>/posts/Hexo/cka3s5vag0006agui8wqbhquu/</url>
+    <url>/posts/Hexo/cka3sob9q0004fcui0l011chv/</url>
     <content><![CDATA[<h3 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> 			<span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> 		<span class="comment">#新建页面</span></span><br><span class="line">hexo generate 				<span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server 				<span class="comment">#开启服务（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy 				<span class="comment">#部署</span></span><br><span class="line">hexo <span class="built_in">help</span>  				<span class="comment">#帮助</span></span><br><span class="line">hexo version				<span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="缩写命令"><a href="#缩写命令" class="headerlink" title="缩写命令"></a>缩写命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo n == hexo new	<span class="comment">#新建</span></span><br><span class="line">hexo g == hexo generate	<span class="comment">#生成静态网页</span></span><br><span class="line">hexo s == hexo server	<span class="comment">#开启服务</span></span><br><span class="line">hexo d == hexo deploy	<span class="comment">#部署</span></span><br></pre></td></tr></table></figure>
@@ -98,7 +98,7 @@
   </entry>
   <entry>
     <title>Hexo使用gulp优化</title>
-    <url>/posts/Hexo/cka3s5vaj0008agui6pdjc539/</url>
+    <url>/posts/Hexo/cka3sobam000pfcui53cec7yy/</url>
     <content><![CDATA[<h3 id="gulp"><a href="#gulp" class="headerlink" title="gulp"></a>gulp</h3><p>通过对站点使用的静态资源进行压缩，来优化网站的访问速度。</p>
 <h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><blockquote>
 <p>在网站根目录打开 Git Bash 命令窗口，输入下列命令 </p>
@@ -119,7 +119,7 @@
   </entry>
   <entry>
     <title>Hexo使用主题</title>
-    <url>/posts/Hexo/cka3s5vam000aagui9cfradgz/</url>
+    <url>/posts/Hexo/cka3sobap000rfcui53h5d0rj/</url>
     <content><![CDATA[<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>去Hexo网站查找你喜欢的主题 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
 <h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
 <li><p>例如我要的是<a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener">NexT主题</a>，这主题已经提供了代码，只需要执行即可</p>
@@ -147,7 +147,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/posts/uncategorized/cka3s5vaq000daguibsv1dlau/</url>
+    <url>/posts/uncategorized/cka3sobas000ufcuibo065xn0/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
