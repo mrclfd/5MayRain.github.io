@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Freenom获取免费域名</title>
+    <url>/posts/%E6%95%99%E7%A8%8B/freenom%E8%8E%B7%E5%8F%96%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<h3 id="Freenom"><a href="#Freenom" class="headerlink" title="Freenom"></a>Freenom</h3><p>Freenom 是一个提供免费域名申请的网站，最长可以选择一年，到期前2个星期会提醒是否续费，到时直接可以免费续费再用一年，相当于永久免费。</p>
+<h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><ol>
+<li>打开 <a href="http://www.freenom.com/zh/index.html" target="_blank" rel="noopener">Freenom</a> 网站，查询自己想要的域名是否可用，可以看到tk、ml、ga、cf、gq这些后缀都是免费的。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/01.png" alt=""> <img src="/img/posts/2020/05/18/02.png" alt=""></br></p>
+<ol start="2">
+<li>点击 <font color="red">现在获取！</font>，你会发现这些域名都不可用，你只需要把你想要的域名和后缀都输入，例如我想要的域名是 <font color="red">mrzgh</font>，后缀是<font color="red">ml</font>，再查询就会发现可以用了，之后点击完成即可。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/03.png" alt=""> <img src="/img/posts/2020/05/18/04.png" alt=""></br></p>
+<ol start="3">
+<li>修改域名时间，默认是3个月，最长可以修改到12个月，修改完成后点击 <font color="red">Continue</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/05.png" alt=""> <img src="/img/posts/2020/05/18/06.png" alt=""></br></p>
+<ol start="4">
+<li>登录结账，有社交账号的可以选择社交账号登录，没有的可以选择邮箱，我选择用邮箱，输入完成后点击 <font color="red">Verify My Email Address</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/07.png" alt=""></br></p>
+<ol start="5">
+<li>验证邮箱，网站会发送一封邮件，点击邮件内的链接进行验证</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/08.png" alt=""></br></p>
+<ol start="6">
+<li>点击验证链接后，会打开一个注册信息的页面，输入相关信息即可。注意：你输入的地址必须和ip查出来的地址符合，还要关闭广告屏蔽插件，不然会申请失败</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/09.png" alt=""></br></p>
+<ol start="7">
+<li>申请成功后显示如下页面</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/10.png" alt=""></br></p>
+<ol start="8">
+<li>查看域名，点击导航的 <font color="red">Services</font>，在弹出的菜单中点击<font color="red">My Domains</font>，然后会弹出登录页面，登录完成后就可以查看自己申请的域名了。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/11.png" alt=""> <img src="/img/posts/2020/05/18/12.png" alt=""></br></p>
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>申请失败的原因有</p>
+<blockquote>
+<ol>
+<li>你输入的地址和ip查询的地址不符合</li>
+<li>未关闭广告屏蔽插件</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>域名</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GitHub静态网站绑定域名</title>
+    <url>/posts/%E6%95%99%E7%A8%8B/github%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。</p>
+<h3 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h3><ol>
+<li>打开 <a href="https://www.dnspod.cn/" target="_blank" rel="noopener">DNSPod</a> 网站，注册登录，可以直接使用微信或者QQ登录</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/13.png" alt=""></br></p>
+<ol start="2">
+<li>登录成功后，打开 <font color="red">管理控制台</font>，选择 <font color="red">DNS 解析</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/14.png" alt=""></br></p>
+<ol start="3">
+<li>点击添加域名，输入你申请到的域名，然后点击确认。添加成功后会看到 <font color="red">DNS错误</font>，需要到域名管理修改服务器地址</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/15.png" alt=""> <img src="/img/posts/2020/05/18/16.png" alt=""></br></p>
+<ol start="4">
+<li>打开你申请域名的网站，进入域名管理    </li>
+</ol>
+<p><img src="/img/posts/2020/05/18/17.png" alt=""> <img src="/img/posts/2020/05/18/18.png" alt=""></br></p>
+<ol start="5">
+<li>选择自定义，修改服务器地址，输入完成后点击 <font color="red">Change Nameservers</font>。然后等待DNS服务器生效，短的话几分钟，长的话几个小时，请耐性等候。</li>
+</ol>
+<blockquote>
+<p>f1g1ns1.dnspod.net<br>f1g1ns2.dnspod.net</p>
+</blockquote>
+<p><img src="/img/posts/2020/05/18/19.png" alt=""> <img src="/img/posts/2020/05/18/20.png" alt=""></br></p>
+<ol start="6">
+<li>生效后，打开你的GitHub静态网站的仓库，在仓库的根目录里面添加 <font color="red">CNAME</font> 文件，输入你的域名，然后点击 <font color="red">Commit changes</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/21.png" alt=""> <img src="/img/posts/2020/05/18/22.png" alt=""></br></p>
+<ol start="7">
+<li>回到DNSPod网站，打开你的域名，添加GitHub静态网地址的记录，点击确认完成输入<blockquote>
+<p>主机记录分别为 @ 和 www<br>记录类型为 CNAME<br>记录值为 GitHub静态网地址</p>
+</blockquote>
+</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/23.png" alt=""></br></p>
+<ol start="8">
+<li>打开静态网站的仓库设置，找到 <font color="red">GitHub Pages</font>，如果 <font color="red">Custom domain</font> 是空的，就输入你的域名，然后点击保存，刷新网页等待生效。生效后会看到  <font color="red">Your site is published at 你的域名</font>，点击你的域名，会可以看到网站了。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/24.png" alt=""> <img src="/img/posts/2020/05/18/25.png" alt=""></br></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>域名</tag>
+        <tag>GitHub</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用GoIndex搭建GoogleDrive网站目录</title>
     <url>/posts/%E6%95%99%E7%A8%8B/%E4%BD%BF%E7%94%A8goindex%E6%90%AD%E5%BB%BAgoogledrive%E7%BD%91%E7%AB%99%E7%9B%AE%E5%BD%95/</url>
     <content><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>使用 Goindex 不用翻墙即可访问团队盘的文件，实现在线看小姐姐。<br>由于原来的 GoIndex 已删库，现提供由他人修改并加上自己美化的GoIndex。<br>地址：<a href="https://github.com/5MayRain/goIndex-theme-nexmoe" target="_blank" rel="noopener">GitHub</a></p>
@@ -158,34 +263,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo使用主题</title>
-    <url>/posts/Hexo/hexo%E4%BD%BF%E7%94%A8%E4%B8%BB%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>去Hexo网站查找你喜欢的主题 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
-<li><p>例如我要的是<a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener">NexT主题</a>，这主题已经提供了代码，只需要执行即可</p>
-</li>
-<li><p>在Hexo根目录打开 Git Bash 命令窗口，输入下列命令</p>
-</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p><img src="/img/posts/2020.05.12/16.png" alt=""></p>
-<ol start="3">
-<li>编辑Hexo根目录的 <font color="red">_config.yml</font> 文件 ，找到<font color="red"> theme: </font> 这行，把内容修改为 <font color="red">next</font>（主题的名称）</li>
-</ol>
-<p><img src="/img/posts/2020.05.12/17.png" alt=""></p>
-<ol start="4">
-<li>开启服务，就可以看到主题已经改变了</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s		//开启服务</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo使用gulp优化</title>
     <url>/posts/Hexo/hexo%E4%BD%BF%E7%94%A8gulp%E4%BC%98%E5%8C%96/</url>
     <content><![CDATA[<h3 id="gulp"><a href="#gulp" class="headerlink" title="gulp"></a>gulp</h3><p>通过对站点使用的静态资源进行压缩，来优化网站的访问速度。</p>
@@ -225,5 +302,33 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Hexo使用主题</title>
+    <url>/posts/Hexo/hexo%E4%BD%BF%E7%94%A8%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>去Hexo网站查找你喜欢的主题 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
+<li><p>例如我要的是<a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener">NexT主题</a>，这主题已经提供了代码，只需要执行即可</p>
+</li>
+<li><p>在Hexo根目录打开 Git Bash 命令窗口，输入下列命令</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p><img src="/img/posts/2020.05.12/16.png" alt=""></p>
+<ol start="3">
+<li>编辑Hexo根目录的 <font color="red">_config.yml</font> 文件 ，找到<font color="red"> theme: </font> 这行，把内容修改为 <font color="red">next</font>（主题的名称）</li>
+</ol>
+<p><img src="/img/posts/2020.05.12/17.png" alt=""></p>
+<ol start="4">
+<li>开启服务，就可以看到主题已经改变了</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s		//开启服务</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>
