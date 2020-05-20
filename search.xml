@@ -1,58 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Freenom获取免费域名</title>
-    <url>/posts/%E6%95%99%E7%A8%8B/freenom%E8%8E%B7%E5%8F%96%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
-    <content><![CDATA[<h3 id="Freenom"><a href="#Freenom" class="headerlink" title="Freenom"></a>Freenom</h3><p>Freenom 是一个提供免费域名申请的网站，最长可以选择一年，到期前2个星期会提醒是否续费，到时直接可以免费续费再用一年，相当于永久免费。</p>
-<h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><ol>
-<li>打开 <a href="http://www.freenom.com/zh/index.html" target="_blank" rel="noopener">Freenom</a> 网站，查询自己想要的域名是否可用，可以看到tk、ml、ga、cf、gq这些后缀都是免费的。</li>
-</ol>
-<p><img src="/img/posts/2020/05/18/01.png" alt=""> <img src="/img/posts/2020/05/18/02.png" alt=""></br></p>
-<ol start="2">
-<li>点击 <font color="red">现在获取！</font>，你会发现这些域名都不可用，你只需要把你想要的域名和后缀都输入，例如我想要的域名是 <font color="red">mrzgh</font>，后缀是<font color="red">ml</font>，再查询就会发现可以用了，之后点击完成即可。</li>
-</ol>
-<p><img src="/img/posts/2020/05/18/03.png" alt=""> <img src="/img/posts/2020/05/18/04.png" alt=""></br></p>
-<ol start="3">
-<li>修改域名时间，默认是3个月，最长可以修改到12个月，修改完成后点击 <font color="red">Continue</font></li>
-</ol>
-<p><img src="/img/posts/2020/05/18/05.png" alt=""> <img src="/img/posts/2020/05/18/06.png" alt=""></br></p>
-<ol start="4">
-<li>登录结账，有社交账号的可以选择社交账号登录，没有的可以选择邮箱，我选择用邮箱，输入完成后点击 <font color="red">Verify My Email Address</font></li>
-</ol>
-<p><img src="/img/posts/2020/05/18/07.png" alt=""></br></p>
-<ol start="5">
-<li>验证邮箱，网站会发送一封邮件，点击邮件内的链接进行验证</li>
-</ol>
-<p><img src="/img/posts/2020/05/18/08.png" alt=""></br></p>
-<ol start="6">
-<li>点击验证链接后，会打开一个注册信息的页面，输入相关信息即可。注意：你输入的地址必须和ip查出来的地址符合，还要关闭广告屏蔽插件，不然会申请失败</li>
-</ol>
-<p><img src="/img/posts/2020/05/18/09.png" alt=""></br></p>
-<ol start="7">
-<li>申请成功后显示如下页面</li>
-</ol>
-<p><img src="/img/posts/2020/05/18/10.png" alt=""></br></p>
-<ol start="8">
-<li>查看域名，点击导航的 <font color="red">Services</font>，在弹出的菜单中点击<font color="red">My Domains</font>，然后会弹出登录页面，登录完成后就可以查看自己申请的域名了。</li>
-</ol>
-<p><img src="/img/posts/2020/05/18/11.png" alt=""> <img src="/img/posts/2020/05/18/12.png" alt=""></br></p>
-<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>申请失败的原因有</p>
-<blockquote>
-<ol>
-<li>你输入的地址和ip查询的地址不符合</li>
-<li>未关闭广告屏蔽插件</li>
-</ol>
-</blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>域名</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GitHub静态网站绑定域名</title>
     <url>/posts/%E6%95%99%E7%A8%8B/github%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</url>
     <content><![CDATA[<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。</p>
@@ -103,6 +51,58 @@
         <tag>域名</tag>
         <tag>GitHub</tag>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Freenom获取免费域名</title>
+    <url>/posts/%E6%95%99%E7%A8%8B/freenom%E8%8E%B7%E5%8F%96%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<h3 id="Freenom"><a href="#Freenom" class="headerlink" title="Freenom"></a>Freenom</h3><p>Freenom 是一个提供免费域名申请的网站，最长可以选择一年，到期前2个星期会提醒是否续费，到时直接可以免费续费再用一年，相当于永久免费。</p>
+<h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><ol>
+<li>打开 <a href="http://www.freenom.com/zh/index.html" target="_blank" rel="noopener">Freenom</a> 网站，查询自己想要的域名是否可用，可以看到tk、ml、ga、cf、gq这些后缀都是免费的。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/01.png" alt=""> <img src="/img/posts/2020/05/18/02.png" alt=""></br></p>
+<ol start="2">
+<li>点击 <font color="red">现在获取！</font>，你会发现这些域名都不可用，你只需要把你想要的域名和后缀都输入，例如我想要的域名是 <font color="red">mrzgh</font>，后缀是<font color="red">ml</font>，再查询就会发现可以用了，之后点击完成即可。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/03.png" alt=""> <img src="/img/posts/2020/05/18/04.png" alt=""></br></p>
+<ol start="3">
+<li>修改域名时间，默认是3个月，最长可以修改到12个月，修改完成后点击 <font color="red">Continue</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/05.png" alt=""> <img src="/img/posts/2020/05/18/06.png" alt=""></br></p>
+<ol start="4">
+<li>登录结账，有社交账号的可以选择社交账号登录，没有的可以选择邮箱，我选择用邮箱，输入完成后点击 <font color="red">Verify My Email Address</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/07.png" alt=""></br></p>
+<ol start="5">
+<li>验证邮箱，网站会发送一封邮件，点击邮件内的链接进行验证</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/08.png" alt=""></br></p>
+<ol start="6">
+<li>点击验证链接后，会打开一个注册信息的页面，输入相关信息即可。注意：你输入的地址必须和ip查出来的地址符合，还要关闭广告屏蔽插件，不然会申请失败</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/09.png" alt=""></br></p>
+<ol start="7">
+<li>申请成功后显示如下页面</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/10.png" alt=""></br></p>
+<ol start="8">
+<li>查看域名，点击导航的 <font color="red">Services</font>，在弹出的菜单中点击<font color="red">My Domains</font>，然后会弹出登录页面，登录完成后就可以查看自己申请的域名了。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/11.png" alt=""> <img src="/img/posts/2020/05/18/12.png" alt=""></br></p>
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>申请失败的原因有</p>
+<blockquote>
+<ol>
+<li>你输入的地址和ip查询的地址不符合</li>
+<li>未关闭广告屏蔽插件</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>域名</tag>
       </tags>
   </entry>
   <entry>
@@ -286,6 +286,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/uncategorized/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hexo使用主题</title>
     <url>/posts/Hexo/hexo%E4%BD%BF%E7%94%A8%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>去Hexo网站查找你喜欢的主题 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
@@ -312,23 +330,5 @@
         <tag>教程</tag>
         <tag>Hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/uncategorized/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
   </entry>
 </search>
