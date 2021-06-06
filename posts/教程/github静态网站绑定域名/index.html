@@ -1,7 +1,230 @@
-<!DOCTYPE html><html lang="zh-CN" class="loading"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>GitHub静态网站绑定域名 - 棕果核</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="google" content="notranslate"><meta name="keywords" content="Fechin,"><meta name="description" content="说明上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GitHub静态网站绑定域名 - 棕果核</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="说明上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。
 教程
 打开 DNSPod 网站，注册登录，可以直接使用微信或者QQ登录
 
 
 
-登录成功后，打开 管理控,"><meta name="author" content="棕果核"><link rel="alternative" href="atom.xml" title="棕果核" type="application/atom+xml"><link rel="icon" href="/img/favicon.png"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><link rel="stylesheet" href="/css/diaspora.css"><link rel="stylesheet" href="/css/navigation.css"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-8691406134231910",enable_page_level_ads:!0})</script><script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script><meta name="generator" content="Hexo 4.2.0"></head><body class="loading"> <span id="config-title" style="display:none">棕果核</span><div id="loader"></div><div id="single"><div id="top" style="display:block"><div class="bar" style="width:0"></div><a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://5mayrain.github.io"></a><div title="播放/暂停" class="iconfont icon-play"></div><h3 class="subtitle">GitHub静态网站绑定域名</h3><div class="social"><div><div class="share"><a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a></div><div id="qr"></div></div></div><div class="scrollbar"></div></div><div class="section"><div class="article"><div class="main"><h1 class="title">GitHub静态网站绑定域名</h1><div class="stuff"> <span>五月 18, 2020</span><ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E5%9F%9F%E5%90%8D/" rel="tag">域名</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li></ul></div><div class="content markdown"><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。</p><h3 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h3><ol><li>打开 <a href="https://www.dnspod.cn/" target="_blank" rel="noopener">DNSPod</a> 网站，注册登录，可以直接使用微信或者QQ登录</li></ol><p><img src="/img/posts/2020/05/18/13.png" alt=""><br></p><ol start="2"><li>登录成功后，打开 <font color="red">管理控制台</font>，选择 <font color="red">DNS 解析</font></li></ol><p><img src="/img/posts/2020/05/18/14.png" alt=""><br></p><ol start="3"><li>点击添加域名，输入你申请到的域名，然后点击确认。添加成功后会看到 <font color="red">DNS错误</font>，需要到域名管理修改服务器地址</li></ol><p><img src="/img/posts/2020/05/18/15.png" alt=""> <img src="/img/posts/2020/05/18/16.png" alt=""><br></p><ol start="4"><li>打开你申请域名的网站，进入域名管理</li></ol><p><img src="/img/posts/2020/05/18/17.png" alt=""> <img src="/img/posts/2020/05/18/18.png" alt=""><br></p><ol start="5"><li>选择自定义，修改服务器地址，输入完成后点击 <font color="red">Change Nameservers</font>。然后等待DNS服务器生效，短的话几分钟，长的话几个小时，请耐性等候。</li></ol><blockquote><p>f1g1ns1.dnspod.net<br>f1g1ns2.dnspod.net</p></blockquote><p><img src="/img/posts/2020/05/18/19.png" alt=""> <img src="/img/posts/2020/05/18/20.png" alt=""><br></p><ol start="6"><li>生效后，打开你的GitHub静态网站的仓库，在仓库的根目录里面添加 <font color="red">CNAME</font> 文件，输入你的域名，然后点击 <font color="red">Commit changes</font></li></ol><p><img src="/img/posts/2020/05/18/21.png" alt=""> <img src="/img/posts/2020/05/18/22.png" alt=""><br></p><ol start="7"><li>回到DNSPod网站，打开你的域名，添加GitHub静态网地址的记录，点击确认完成输入<blockquote><p>主机记录分别为 @ 和 www<br>记录类型为 CNAME<br>记录值为 GitHub静态网地址</p></blockquote></li></ol><p><img src="/img/posts/2020/05/18/23.png" alt=""><br></p><ol start="8"><li>打开静态网站的仓库设置，找到 <font color="red">GitHub Pages</font>，如果 <font color="red">Custom domain</font> 是空的，就输入你的域名，然后点击保存，刷新网页等待生效。生效后会看到 <font color="red">Your site is published at 你的域名</font>，点击你的域名，会可以看到网站了。</li></ol><p><img src="/img/posts/2020/05/18/24.png" alt=""> <img src="/img/posts/2020/05/18/25.png" alt=""><br></p><!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]--><audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true"><source type="audio/mpeg" src=""></audio><ul id="audio-list" style="display:none"><li title="0" data-url="http://music.163.com/song/media/outer/url?id=375762.mp3"></li><li title="1" data-url="http://music.163.com/song/media/outer/url?id=354620.mp3"></li><li title="2" data-url="http://music.163.com/song/media/outer/url?id=329925.mp3"></li></ul></div><div id="gitalk-container" class="comment link" data-enable="true" data-ae="false" data-ci="89ba0c99dd53a9c8cd90" data-cs="d4652489373fcfa5d0e3cd07c9ef39ae420324be" data-r="5MayRain.github.io" data-o="5MayRain" data-a="5MayRain" data-d="true">查看评论</div></div></div></div></div></body><script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script><script src="/js/plugin.js"></script><script src="/js/typed.js"></script><script src="/js/diaspora.js"></script><link rel="stylesheet" href="/photoswipe/photoswipe.css"><link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css"><script src="/photoswipe/photoswipe.min.js"></script><script src="/photoswipe/photoswipe-ui-default.min.js"></script><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div> <button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div> <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div></html>
+登录成功后，打开 管理控,"> 
+    <meta name="author" content="棕果核"> 
+    <link rel="alternative" href="atom.xml" title="棕果核" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    
+<link rel="stylesheet" href="/css/navigation.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">棕果核</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://5mayrain.github.io"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">GitHub静态网站绑定域名</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">GitHub静态网站绑定域名</h1>
+        <div class="stuff">
+            <span>五月 18, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E5%9F%9F%E5%90%8D/" rel="tag">域名</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。</p>
+<h3 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h3><ol>
+<li>打开 <a href="https://www.dnspod.cn/" target="_blank" rel="noopener">DNSPod</a> 网站，注册登录，可以直接使用微信或者QQ登录</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/13.png" alt=""></br></p>
+<ol start="2">
+<li>登录成功后，打开 <font color="red">管理控制台</font>，选择 <font color="red">DNS 解析</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/14.png" alt=""></br></p>
+<ol start="3">
+<li>点击添加域名，输入你申请到的域名，然后点击确认。添加成功后会看到 <font color="red">DNS错误</font>，需要到域名管理修改服务器地址</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/15.png" alt=""> <img src="/img/posts/2020/05/18/16.png" alt=""></br></p>
+<ol start="4">
+<li>打开你申请域名的网站，进入域名管理    </li>
+</ol>
+<p><img src="/img/posts/2020/05/18/17.png" alt=""> <img src="/img/posts/2020/05/18/18.png" alt=""></br></p>
+<ol start="5">
+<li>选择自定义，修改服务器地址，输入完成后点击 <font color="red">Change Nameservers</font>。然后等待DNS服务器生效，短的话几分钟，长的话几个小时，请耐性等候。</li>
+</ol>
+<blockquote>
+<p>f1g1ns1.dnspod.net<br>f1g1ns2.dnspod.net</p>
+</blockquote>
+<p><img src="/img/posts/2020/05/18/19.png" alt=""> <img src="/img/posts/2020/05/18/20.png" alt=""></br></p>
+<ol start="6">
+<li>生效后，打开你的GitHub静态网站的仓库，在仓库的根目录里面添加 <font color="red">CNAME</font> 文件，输入你的域名，然后点击 <font color="red">Commit changes</font></li>
+</ol>
+<p><img src="/img/posts/2020/05/18/21.png" alt=""> <img src="/img/posts/2020/05/18/22.png" alt=""></br></p>
+<ol start="7">
+<li>回到DNSPod网站，打开你的域名，添加GitHub静态网地址的记录，点击确认完成输入<blockquote>
+<p>主机记录分别为 @ 和 www<br>记录类型为 CNAME<br>记录值为 GitHub静态网地址</p>
+</blockquote>
+</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/23.png" alt=""></br></p>
+<ol start="8">
+<li>打开静态网站的仓库设置，找到 <font color="red">GitHub Pages</font>，如果 <font color="red">Custom domain</font> 是空的，就输入你的域名，然后点击保存，刷新网页等待生效。生效后会看到  <font color="red">Your site is published at 你的域名</font>，点击你的域名，会可以看到网站了。</li>
+</ol>
+<p><img src="/img/posts/2020/05/18/24.png" alt=""> <img src="/img/posts/2020/05/18/25.png" alt=""></br></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://music.163.com/song/media/outer/url?id=375762.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://music.163.com/song/media/outer/url?id=354620.mp3'></li>
+                        
+                    
+                        
+                            <li title='2' data-url='http://music.163.com/song/media/outer/url?id=329925.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='false'
+        data-ci='89ba0c99dd53a9c8cd90'
+        data-cs='d4652489373fcfa5d0e3cd07c9ef39ae420324be'
+        data-r='5MayRain.github.io'
+        data-o='5MayRain'
+        data-a='5MayRain'
+        data-d='true'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
