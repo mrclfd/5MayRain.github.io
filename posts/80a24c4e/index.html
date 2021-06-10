@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>在Windows使用Rclone挂载OneDrive - 棕果核</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="工具rclone：官网 &amp;nbsp;  GitHubwinfsp：GitHub
+使用
+下载完成后，先安装winfsp，安装完成后，把rclone解压到你喜欢的文件夹下。例如：我解压到E盘根目录
+
+
+,"> 
+    <meta name="author" content="棕果核"> 
+    <link rel="alternative" href="atom.xml" title="棕果核" type="application/atom+xml"> 
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    
+<link rel="stylesheet" href="/css/site.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">棕果核</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://5mayrain.github.io"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">在Windows使用Rclone挂载OneDrive</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">在Windows使用Rclone挂载OneDrive</h1>
+        <div class="stuff">
+            <span>五月 22, 2020</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Windows/" rel="tag">Windows</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><p>rclone：<a href="https://rclone.org/downloads/" target="_blank" rel="noopener">官网</a> &nbsp;  <a href="https://github.com/ncw/rclone" target="_blank" rel="noopener">GitHub</a><br>winfsp：<a href="https://github.com/billziss-gh/winfsp/releases" target="_blank" rel="noopener">GitHub</a></p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
+<li>下载完成后，先安装winfsp，安装完成后，把rclone解压到你喜欢的文件夹下。例如：我解压到E盘根目录</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/01.png" alt=""></p>
+</br>
+2.  配置环境变量
+
+<blockquote>
+<p>鼠标右击此电脑 &gt; 选择属性 &gt; 高级系统设置 &gt; 高级 &gt; 环境变量 &gt; 双击系统变量中的 Path &gt; 添加 rclone 路径 &gt; 确定</p>
+</blockquote>
+</br>
+3.  检查rclone
+
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/02.png" alt=""></p>
+<blockquote>
+<p>打开cmd命令窗口，输入以下命令，出现下图输出则安装成功，否则重复上述操作</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone --version</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/03.png" alt=""></p>
+</br>
+4.  配置rclone
+
+<blockquote>
+<p>输入以下命令</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone config	<span class="comment">#配置</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/04.png" alt=""></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">n	<span class="comment">#新建远程连接</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/05.png" alt=""></p>
+<blockquote>
+<p>给创建的连接取名，我要挂载的是 OneDrive 我就取 OneDrive</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/06.png" alt=""></p>
+<blockquote>
+<p>选择列表中的 23 / Microsoft OneDrive这项，输入23，回车</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/07.png" alt=""></p>
+<blockquote>
+<p>client_id 留空，直接回车</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/08.png" alt=""></p>
+<blockquote>
+<p>client_secret 留空，直接回车</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/09.png" alt=""></p>
+<blockquote>
+<p>Edit advanced config? (y/n)    #是否设置高级设置<br>选择否，输入 n ，回车</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/10.png" alt=""></p>
+<blockquote>
+<p>Use auto config?    #是否使用自动配置<br>选择是，输入 y ，回车</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/11.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/12.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/13.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/14.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/15.png" alt=""></p>
+<blockquote>
+<p>选择 OneDrive Personal or Business    #网盘类型<br>输入 1 ，回车</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/16.png" alt=""></p>
+<blockquote>
+<p>注意前面的编号，一般默认为0，输入0 ，回车</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/17.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/18.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/19.png" alt=""></p>
+<blockquote>
+<p>到这里已经把OneDrive配置好了，输入 q 结束配置</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/20.png" alt=""></p>
+<blockquote>
+<p>配置文件在当前用户的  <font color="red">/.config/rclone/</font> 文件夹下</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/21.png" alt=""></p>
+</br>
+5.  挂载
+
+<blockquote>
+<p>下列代码后面加入 <font color="red">&amp;</font> 符号，代表程序后台运行，不然关掉命令窗口，程序也会关掉</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 挂载为文件夹</span></span><br><span class="line"><span class="comment"># OneDrive 是你取得名</span></span><br><span class="line"><span class="comment"># D:\OneDrive 是要挂载文件夹的路径</span></span><br><span class="line">rclone mount OneDrive: D:\OneDrive --allow-other --vfs-cache-mode writes --allow-non-empty</span><br><span class="line"></span><br><span class="line"><span class="comment"># 挂载为磁盘</span></span><br><span class="line"><span class="comment"># OneDrive 是你取得名</span></span><br><span class="line"><span class="comment"># O: 是要挂载磁盘的盘符</span></span><br><span class="line"><span class="comment"># D:\OneDriveTemp 是缓存目录</span></span><br><span class="line">rclone mount OneDrive:/ O: --cache-dir D:\OneDriveTemp --vfs-cache-mode writes</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>提示 <font color="red">The service rclone has been started.</font> 则挂载成功</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/22.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/23.png" alt=""></p>
+</br>
+</br>
+</br>
+<center style="color: #cccccc;">-&nbsp;&nbsp;&nbsp;END&nbsp;&nbsp;&nbsp;-</center>
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://music.163.com/song/media/outer/url?id=375762.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://music.163.com/song/media/outer/url?id=354620.mp3'></li>
+                        
+                    
+                        
+                            <li title='2' data-url='http://music.163.com/song/media/outer/url?id=329925.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='false'
+        data-ci='89ba0c99dd53a9c8cd90'
+        data-cs='d4652489373fcfa5d0e3cd07c9ef39ae420324be'
+        data-r='5MayRain.github.io'
+        data-o='5MayRain'
+        data-a='5MayRain'
+        data-d='true'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
