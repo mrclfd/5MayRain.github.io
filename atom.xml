@@ -160,7 +160,7 @@
     <link href="https://5mayrain.github.io/posts/b2b596ff/"/>
     <id>https://5mayrain.github.io/posts/b2b596ff/</id>
     <published>2020-05-12T08:12:05.000Z</published>
-    <updated>2021-06-10T10:59:40.740Z</updated>
+    <updated>2021-06-10T11:27:15.983Z</updated>
     
     <content type="html"><![CDATA[<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>去Hexo网站查找你喜欢的主题 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol><li><p>例如我要的是<a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener">NexT主题</a>，这主题已经提供了代码，只需要执行即可</p></li><li><p>在Hexo根目录打开 Git Bash 命令窗口，输入下列命令</p></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/16.png" alt=""></p><ol start="3"><li>编辑Hexo根目录的 <font color="red">_config.yml</font> 文件 ，找到<font color="red"> theme: </font> 这行，把内容修改为 <font color="red">next</font>（主题的名称）</li></ol><p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/17.png" alt=""></p><ol start="4"><li>开启服务，就可以看到主题已经改变了</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s//开启服务</span><br></pre></td></tr></table></figure>]]></content>
     
