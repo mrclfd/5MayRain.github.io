@@ -53,6 +53,43 @@
       </tags>
   </entry>
   <entry>
+    <title>使用GoIndex搭建GoogleDrive网站目录</title>
+    <url>/posts/c56f99dc/</url>
+    <content><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>使用 Goindex 不用翻墙即可访问团队盘的文件，实现在线看小姐姐。<br>由于原来的 GoIndex 已删库，现提供由他人修改并加上自己美化的GoIndex。<br>地址：<a href="https://github.com/5MayRain/goIndex-theme-nexmoe" target="_blank" rel="noopener">GitHub</a></p>
+<h3 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h3><p><a href="https://go.zgh.workers.dev/" target="_blank" rel="noopener">app-v2.js</a> &nbsp;&nbsp; <a href="https://demo.zgh.workers.dev/" target="_blank" rel="noopener">app-v3.js</a></p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
+<li><p>打开 <a href="https://install.kenci.workers.dev/" target="_blank" rel="noopener">https://install.kenci.workers.dev/</a> 网站,验证并获取代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/01.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/02.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/03.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/04.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/05.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/06.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/07.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/08.png" alt=""></p>
+</li>
+<li><p>使用相对应 app.js 的模板，将获取到的id和授权填入</p>
+</li>
+</ol>
+<blockquote>
+<p>app-v2.js        &gt;        GoIndex.js<br>app-v3.js        &gt;        GoIndex_v2.js</p>
+</blockquote>
+<ol start="3">
+<li><p>登录<a href="https://www.cloudflare.com/zh-cn/" target="_blank" rel="noopener">Cloudflare</a>（没有就自己注册），部署代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/09.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/10.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/11.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/12.png" alt=""></p>
+</li>
+<li><p>使用你选择的模板相对应的app.js，替换模板默认的app.js</p>
+</li>
+</ol>
+<blockquote>
+<p><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.2/app-v2.js" target="_blank" rel="noopener">app-v2.js</a><br><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/app-v3.js" target="_blank" rel="noopener">app-v3.js</a></p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> html = <span class="string">`</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">&lt;script src="替换"&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">`</span>;</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li>保存并部署</li>
+</ol>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Google</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GitHub静态网站绑定域名</title>
     <url>/posts/b09467db/</url>
     <content><![CDATA[<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。</p>
@@ -103,43 +140,6 @@
         <tag>域名</tag>
         <tag>GitHub</tag>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用GoIndex搭建GoogleDrive网站目录</title>
-    <url>/posts/c56f99dc/</url>
-    <content><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>使用 Goindex 不用翻墙即可访问团队盘的文件，实现在线看小姐姐。<br>由于原来的 GoIndex 已删库，现提供由他人修改并加上自己美化的GoIndex。<br>地址：<a href="https://github.com/5MayRain/goIndex-theme-nexmoe" target="_blank" rel="noopener">GitHub</a></p>
-<h3 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h3><p><a href="https://go.zgh.workers.dev/" target="_blank" rel="noopener">app-v2.js</a> &nbsp;&nbsp; <a href="https://demo.zgh.workers.dev/" target="_blank" rel="noopener">app-v3.js</a></p>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
-<li><p>打开 <a href="https://install.kenci.workers.dev/" target="_blank" rel="noopener">https://install.kenci.workers.dev/</a> 网站,验证并获取代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/01.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/02.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/03.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/04.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/05.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/06.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/07.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/08.png" alt=""></p>
-</li>
-<li><p>使用相对应 app.js 的模板，将获取到的id和授权填入</p>
-</li>
-</ol>
-<blockquote>
-<p>app-v2.js        &gt;        GoIndex.js<br>app-v3.js        &gt;        GoIndex_v2.js</p>
-</blockquote>
-<ol start="3">
-<li><p>登录<a href="https://www.cloudflare.com/zh-cn/" target="_blank" rel="noopener">Cloudflare</a>（没有就自己注册），部署代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/09.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/10.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/11.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/12.png" alt=""></p>
-</li>
-<li><p>使用你选择的模板相对应的app.js，替换模板默认的app.js</p>
-</li>
-</ol>
-<blockquote>
-<p><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.2/app-v2.js" target="_blank" rel="noopener">app-v2.js</a><br><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/app-v3.js" target="_blank" rel="noopener">app-v3.js</a></p>
-</blockquote>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> html = <span class="string">`</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">&lt;script src="替换"&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">`</span>;</span><br></pre></td></tr></table></figure>
-
-<ol start="5">
-<li>保存并部署</li>
-</ol>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Google</tag>
       </tags>
   </entry>
   <entry>
@@ -247,22 +247,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo常用命令</title>
-    <url>/posts/24caea6b/</url>
-    <content><![CDATA[<h3 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> 			<span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> 		<span class="comment">#新建页面</span></span><br><span class="line">hexo generate 				<span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server 				<span class="comment">#开启服务（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy 				<span class="comment">#部署</span></span><br><span class="line">hexo <span class="built_in">help</span>  				<span class="comment">#帮助</span></span><br><span class="line">hexo version				<span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="缩写命令"><a href="#缩写命令" class="headerlink" title="缩写命令"></a>缩写命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo n == hexo new	<span class="comment">#新建</span></span><br><span class="line">hexo g == hexo generate	<span class="comment">#生成静态网页</span></span><br><span class="line">hexo s == hexo server	<span class="comment">#开启服务</span></span><br><span class="line">hexo d == hexo deploy	<span class="comment">#部署</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="组合命令"><a href="#组合命令" class="headerlink" title="组合命令"></a>组合命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s -g <span class="comment">#生成并本地预览</span></span><br><span class="line">hexo d -g <span class="comment">#生成并上传</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo使用gulp优化</title>
     <url>/posts/3cf7d586/</url>
     <content><![CDATA[<h3 id="gulp"><a href="#gulp" class="headerlink" title="gulp"></a>gulp</h3><p>通过对站点使用的静态资源进行压缩，来优化网站的访问速度。</p>
@@ -277,6 +261,22 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>);</span><br><span class="line"><span class="keyword">var</span> minifycss = <span class="built_in">require</span>(<span class="string">'gulp-clean-css'</span>);</span><br><span class="line"><span class="keyword">var</span> uglify = <span class="built_in">require</span>(<span class="string">'gulp-uglify-es'</span>).default;</span><br><span class="line"><span class="keyword">var</span> htmlmin = <span class="built_in">require</span>(<span class="string">'gulp-htmlmin'</span>);</span><br><span class="line"><span class="keyword">var</span> htmlclean = <span class="built_in">require</span>(<span class="string">'gulp-htmlclean'</span>);</span><br><span class="line"><span class="keyword">var</span> imagemin = <span class="built_in">require</span>(<span class="string">'gulp-imagemin'</span>);</span><br><span class="line"><span class="keyword">var</span> del = <span class="built_in">require</span>(<span class="string">'del'</span>);</span><br><span class="line"><span class="keyword">var</span> Hexo = <span class="built_in">require</span>(<span class="string">'hexo'</span>);</span><br><span class="line"><span class="keyword">var</span> minifyInlineJSON = <span class="built_in">require</span>(<span class="string">'gulp-minify-inline-json'</span>);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'clean'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> del([<span class="string">'public/**/*'</span>]);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> hexo = <span class="keyword">new</span> Hexo(process.cwd(), &#123;&#125;);</span><br><span class="line">gulp.task(<span class="string">'generate'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">cb</span>) </span>&#123;</span><br><span class="line">    hexo.init().then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> hexo.call(<span class="string">'generate'</span>, &#123;</span><br><span class="line">            watch: <span class="literal">false</span></span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;).then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> hexo.exit();</span><br><span class="line">    &#125;).then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> cb()</span><br><span class="line">    &#125;).catch(<span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(err);</span><br><span class="line">        hexo.exit(err);</span><br><span class="line">        <span class="keyword">return</span> cb(err);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'deploy'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> hexo.init().then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> hexo.call(<span class="string">'deploy'</span>, &#123;</span><br><span class="line">            watch: <span class="literal">false</span></span><br><span class="line">        &#125;).then(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> hexo.exit();</span><br><span class="line">        &#125;).catch(<span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> hexo.exit(err);</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'minify-css'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.css'</span>)</span><br><span class="line">        .pipe(minifycss(&#123;</span><br><span class="line">            compatibility: <span class="string">'ie8'</span></span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'minify-html'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.html'</span>)</span><br><span class="line">        .pipe(htmlclean())</span><br><span class="line">        .pipe(htmlmin(&#123;</span><br><span class="line">            removeComments: <span class="literal">true</span>,</span><br><span class="line">            minifyJS: <span class="literal">true</span>,</span><br><span class="line">            minifyCSS: <span class="literal">true</span>,</span><br><span class="line">            minifyURLs: <span class="literal">true</span>,</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>))</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'minify-img'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/img/**/*'</span>)</span><br><span class="line">        .pipe(imagemin([</span><br><span class="line">            imagemin.gifsicle(&#123;</span><br><span class="line">                interlaced: <span class="literal">true</span></span><br><span class="line">            &#125;),</span><br><span class="line">            imagemin.jpegtran(&#123;</span><br><span class="line">                progressive: <span class="literal">true</span></span><br><span class="line">            &#125;),</span><br><span class="line">            imagemin.optipng(&#123;</span><br><span class="line">                optimizationLevel: <span class="number">5</span></span><br><span class="line">            &#125;),</span><br><span class="line">            imagemin.svgo(&#123;</span><br><span class="line">                plugins: [&#123;</span><br><span class="line">                    removeViewBox: <span class="literal">true</span></span><br><span class="line">                &#125;, &#123;</span><br><span class="line">                    cleanupIDs: <span class="literal">false</span></span><br><span class="line">                &#125;]</span><br><span class="line">            &#125;)</span><br><span class="line">        ]))</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public/img'</span>))</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'minify-js'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.js'</span>)</span><br><span class="line">        .pipe(uglify())</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'minifyInlineJSON'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.html'</span>)</span><br><span class="line">        .pipe(minifyInlineJSON())</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'compress'</span>, gulp.series(<span class="string">'minify-html'</span>, <span class="string">'minify-css'</span>, <span class="string">'minify-img'</span>, <span class="string">'minify-js'</span>, <span class="string">'minifyInlineJSON'</span>));</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'default'</span>, gulp.series(<span class="string">'clean'</span>, <span class="string">'generate'</span>, <span class="string">'compress'</span>, <span class="string">'deploy'</span>));</span><br></pre></td></tr></table></figure>
 
 <h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean		<span class="comment">#清除缓存</span></span><br><span class="line">hexo g			<span class="comment">#生成静态网页</span></span><br><span class="line">gulp			<span class="comment">#压缩</span></span><br><span class="line">hexo d			<span class="comment">#部署</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo常用命令</title>
+    <url>/posts/24caea6b/</url>
+    <content><![CDATA[<h3 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> 			<span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> 		<span class="comment">#新建页面</span></span><br><span class="line">hexo generate 				<span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server 				<span class="comment">#开启服务（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy 				<span class="comment">#部署</span></span><br><span class="line">hexo <span class="built_in">help</span>  				<span class="comment">#帮助</span></span><br><span class="line">hexo version				<span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="缩写命令"><a href="#缩写命令" class="headerlink" title="缩写命令"></a>缩写命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo n == hexo new	<span class="comment">#新建</span></span><br><span class="line">hexo g == hexo generate	<span class="comment">#生成静态网页</span></span><br><span class="line">hexo s == hexo server	<span class="comment">#开启服务</span></span><br><span class="line">hexo d == hexo deploy	<span class="comment">#部署</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="组合命令"><a href="#组合命令" class="headerlink" title="组合命令"></a>组合命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s -g <span class="comment">#生成并本地预览</span></span><br><span class="line">hexo d -g <span class="comment">#生成并上传</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
