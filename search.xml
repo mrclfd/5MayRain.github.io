@@ -53,43 +53,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用GoIndex搭建GoogleDrive网站目录</title>
-    <url>/posts/c56f99dc/</url>
-    <content><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>使用 Goindex 不用翻墙即可访问团队盘的文件，实现在线看小姐姐。<br>由于原来的 GoIndex 已删库，现提供由他人修改并加上自己美化的GoIndex。<br>地址：<a href="https://github.com/5MayRain/goIndex-theme-nexmoe" target="_blank" rel="noopener">GitHub</a></p>
-<h3 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h3><p><a href="https://go.zgh.workers.dev/" target="_blank" rel="noopener">app-v2.js</a> &nbsp;&nbsp; <a href="https://demo.zgh.workers.dev/" target="_blank" rel="noopener">app-v3.js</a></p>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
-<li><p>打开 <a href="https://install.kenci.workers.dev/" target="_blank" rel="noopener">https://install.kenci.workers.dev/</a> 网站,验证并获取代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/01.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/02.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/03.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/04.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/05.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/06.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/07.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/08.png" alt=""></p>
-</li>
-<li><p>使用相对应 app.js 的模板，将获取到的id和授权填入</p>
-</li>
-</ol>
-<blockquote>
-<p>app-v2.js        &gt;        GoIndex.js<br>app-v3.js        &gt;        GoIndex_v2.js</p>
-</blockquote>
-<ol start="3">
-<li><p>登录<a href="https://www.cloudflare.com/zh-cn/" target="_blank" rel="noopener">Cloudflare</a>（没有就自己注册），部署代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/09.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/10.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/11.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/12.png" alt=""></p>
-</li>
-<li><p>使用你选择的模板相对应的app.js，替换模板默认的app.js</p>
-</li>
-</ol>
-<blockquote>
-<p><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.2/app-v2.js" target="_blank" rel="noopener">app-v2.js</a><br><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/app-v3.js" target="_blank" rel="noopener">app-v3.js</a></p>
-</blockquote>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> html = <span class="string">`</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">&lt;script src="替换"&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">`</span>;</span><br></pre></td></tr></table></figure>
-
-<ol start="5">
-<li>保存并部署</li>
-</ol>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Google</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GitHub静态网站绑定域名</title>
     <url>/posts/b09467db/</url>
     <content><![CDATA[<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。</p>
@@ -140,6 +103,43 @@
         <tag>域名</tag>
         <tag>GitHub</tag>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用GoIndex搭建GoogleDrive网站目录</title>
+    <url>/posts/c56f99dc/</url>
+    <content><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>使用 Goindex 不用翻墙即可访问团队盘的文件，实现在线看小姐姐。<br>由于原来的 GoIndex 已删库，现提供由他人修改并加上自己美化的GoIndex。<br>地址：<a href="https://github.com/5MayRain/goIndex-theme-nexmoe" target="_blank" rel="noopener">GitHub</a></p>
+<h3 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h3><p><a href="https://go.zgh.workers.dev/" target="_blank" rel="noopener">app-v2.js</a> &nbsp;&nbsp; <a href="https://demo.zgh.workers.dev/" target="_blank" rel="noopener">app-v3.js</a></p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
+<li><p>打开 <a href="https://install.kenci.workers.dev/" target="_blank" rel="noopener">https://install.kenci.workers.dev/</a> 网站,验证并获取代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/01.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/02.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/03.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/04.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/05.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/06.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/07.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/08.png" alt=""></p>
+</li>
+<li><p>使用相对应 app.js 的模板，将获取到的id和授权填入</p>
+</li>
+</ol>
+<blockquote>
+<p>app-v2.js        &gt;        GoIndex.js<br>app-v3.js        &gt;        GoIndex_v2.js</p>
+</blockquote>
+<ol start="3">
+<li><p>登录<a href="https://www.cloudflare.com/zh-cn/" target="_blank" rel="noopener">Cloudflare</a>（没有就自己注册），部署代码<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/09.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/10.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/11.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/13/12.png" alt=""></p>
+</li>
+<li><p>使用你选择的模板相对应的app.js，替换模板默认的app.js</p>
+</li>
+</ol>
+<blockquote>
+<p><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.2/app-v2.js" target="_blank" rel="noopener">app-v2.js</a><br><a href="https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/app-v3.js" target="_blank" rel="noopener">app-v3.js</a></p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> html = <span class="string">`</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">&lt;script src="替换"&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">......</span></span><br><span class="line"><span class="string">`</span>;</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li>保存并部署</li>
+</ol>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Google</tag>
       </tags>
   </entry>
   <entry>
