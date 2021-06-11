@@ -167,6 +167,40 @@
       </tags>
   </entry>
   <entry>
+    <title>使用Hexo+GitHub搭建个人网站（1、本地安装）</title>
+    <url>/posts/a7b9bc2b/</url>
+    <content><![CDATA[<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页</p>
+<h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol>
+<li>全是静态文件，访问速度快；</li>
+<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
+<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于GitHub的；</li>
+<li>数据绝对安全，基于GitHub的版本管理，想恢复到哪个历史版本都行；</li>
+<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
+</ol>
+<h3 id="一、安装环境"><a href="#一、安装环境" class="headerlink" title="一、安装环境"></a>一、安装环境</h3><p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git</a></p>
+<blockquote>
+<p>安装成功后，在桌面右键打开 Git Bash，输入以下命令验证是否成功，成功则会出现相应的版本号。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/01.png" alt=""></p>
+<h3 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h3><p>2.1 安装</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/02.png" alt=""><br>2.2 初始化<br>在电脑新建MyHexo文件夹（名字可以随便取），这个文件夹作为你存放代码的地方，最好不要随便放。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> MyHexo</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/03.png" alt=""><br>2.3 输入以下代码开启服务，打开网址<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/04.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用Hexo+GitHub搭建个人网站（2、部署）</title>
     <url>/posts/476715b7/</url>
     <content><![CDATA[<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p>GitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名GitHub。</p>
@@ -202,40 +236,6 @@
 <p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/14.png" alt=""></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.email <span class="string">"邮箱"</span> //GitHub注册使用的邮箱</span><br><span class="line">git config --global user.name <span class="string">"用户名"</span> //GitHub用户名</span><br><span class="line">hexo g //生成静态网页</span><br><span class="line">hexo d //部署</span><br></pre></td></tr></table></figure>
 <p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/15.png" alt=""><br>最后在浏览器打开你的地址 <font color="red">用户名.github.io</font></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用Hexo+GitHub搭建个人网站（1、本地安装）</title>
-    <url>/posts/a7b9bc2b/</url>
-    <content><![CDATA[<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页</p>
-<h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol>
-<li>全是静态文件，访问速度快；</li>
-<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
-<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于GitHub的；</li>
-<li>数据绝对安全，基于GitHub的版本管理，想恢复到哪个历史版本都行；</li>
-<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
-</ol>
-<h3 id="一、安装环境"><a href="#一、安装环境" class="headerlink" title="一、安装环境"></a>一、安装环境</h3><p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git</a></p>
-<blockquote>
-<p>安装成功后，在桌面右键打开 Git Bash，输入以下命令验证是否成功，成功则会出现相应的版本号。</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/01.png" alt=""></p>
-<h3 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h3><p>2.1 安装</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/02.png" alt=""><br>2.2 初始化<br>在电脑新建MyHexo文件夹（名字可以随便取），这个文件夹作为你存放代码的地方，最好不要随便放。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> MyHexo</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/03.png" alt=""><br>2.3 输入以下代码开启服务，打开网址<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/04.png" alt=""></p>
 ]]></content>
       <categories>
         <category>Hexo</category>
