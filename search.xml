@@ -1,58 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Freenom获取免费域名</title>
-    <url>/posts/d8ac6531/</url>
-    <content><![CDATA[<h3 id="Freenom"><a href="#Freenom" class="headerlink" title="Freenom"></a>Freenom</h3><p>Freenom 是一个提供免费域名申请的网站，最长可以选择一年，到期前2个星期会提醒是否续费，到时直接可以免费续费再用一年，相当于永久免费。</p>
-<h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><ol>
-<li>打开 <a href="http://www.freenom.com/zh/index.html" target="_blank" rel="noopener">Freenom</a> 网站，查询自己想要的域名是否可用，可以看到tk、ml、ga、cf、gq这些后缀都是免费的。</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/01.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/02.png" alt=""></br></p>
-<ol start="2">
-<li>点击 <font color="red">现在获取！</font>，你会发现这些域名都不可用，你只需要把你想要的域名和后缀都输入，例如我想要的域名是 <font color="red">mrzgh</font>，后缀是<font color="red">ml</font>，再查询就会发现可以用了，之后点击完成即可。</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/03.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/04.png" alt=""></br></p>
-<ol start="3">
-<li>修改域名时间，默认是3个月，最长可以修改到12个月，修改完成后点击 <font color="red">Continue</font></li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/05.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/06.png" alt=""></br></p>
-<ol start="4">
-<li>登录结账，有社交账号的可以选择社交账号登录，没有的可以选择邮箱，我选择用邮箱，输入完成后点击 <font color="red">Verify My Email Address</font></li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/07.png" alt=""></br></p>
-<ol start="5">
-<li>验证邮箱，网站会发送一封邮件，点击邮件内的链接进行验证</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/08.png" alt=""></br></p>
-<ol start="6">
-<li>点击验证链接后，会打开一个注册信息的页面，输入相关信息即可。注意：你输入的地址必须和ip查出来的地址符合，还要关闭广告屏蔽插件，不然会申请失败</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/09.png" alt=""></br></p>
-<ol start="7">
-<li>申请成功后显示如下页面</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/10.png" alt=""></br></p>
-<ol start="8">
-<li>查看域名，点击导航的 <font color="red">Services</font>，在弹出的菜单中点击<font color="red">My Domains</font>，然后会弹出登录页面，登录完成后就可以查看自己申请的域名了。</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/11.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/12.png" alt=""></br></p>
-<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>申请失败的原因有</p>
-<blockquote>
-<ol>
-<li>你输入的地址和ip查询的地址不符合</li>
-<li>未关闭广告屏蔽插件</li>
-</ol>
-</blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>域名</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GitHub静态网站绑定域名</title>
     <url>/posts/b09467db/</url>
     <content><![CDATA[<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>上一篇文章讲到怎么获取免费的域名，这一篇讲怎么把获取到的域名绑定GitHub中的静态网站。</p>
@@ -106,6 +54,92 @@
       </tags>
   </entry>
   <entry>
+    <title>Freenom获取免费域名</title>
+    <url>/posts/d8ac6531/</url>
+    <content><![CDATA[<h3 id="Freenom"><a href="#Freenom" class="headerlink" title="Freenom"></a>Freenom</h3><p>Freenom 是一个提供免费域名申请的网站，最长可以选择一年，到期前2个星期会提醒是否续费，到时直接可以免费续费再用一年，相当于永久免费。</p>
+<h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><ol>
+<li>打开 <a href="http://www.freenom.com/zh/index.html" target="_blank" rel="noopener">Freenom</a> 网站，查询自己想要的域名是否可用，可以看到tk、ml、ga、cf、gq这些后缀都是免费的。</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/01.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/02.png" alt=""></br></p>
+<ol start="2">
+<li>点击 <font color="red">现在获取！</font>，你会发现这些域名都不可用，你只需要把你想要的域名和后缀都输入，例如我想要的域名是 <font color="red">mrzgh</font>，后缀是<font color="red">ml</font>，再查询就会发现可以用了，之后点击完成即可。</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/03.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/04.png" alt=""></br></p>
+<ol start="3">
+<li>修改域名时间，默认是3个月，最长可以修改到12个月，修改完成后点击 <font color="red">Continue</font></li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/05.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/06.png" alt=""></br></p>
+<ol start="4">
+<li>登录结账，有社交账号的可以选择社交账号登录，没有的可以选择邮箱，我选择用邮箱，输入完成后点击 <font color="red">Verify My Email Address</font></li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/07.png" alt=""></br></p>
+<ol start="5">
+<li>验证邮箱，网站会发送一封邮件，点击邮件内的链接进行验证</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/08.png" alt=""></br></p>
+<ol start="6">
+<li>点击验证链接后，会打开一个注册信息的页面，输入相关信息即可。注意：你输入的地址必须和ip查出来的地址符合，还要关闭广告屏蔽插件，不然会申请失败</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/09.png" alt=""></br></p>
+<ol start="7">
+<li>申请成功后显示如下页面</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/10.png" alt=""></br></p>
+<ol start="8">
+<li>查看域名，点击导航的 <font color="red">Services</font>，在弹出的菜单中点击<font color="red">My Domains</font>，然后会弹出登录页面，登录完成后就可以查看自己申请的域名了。</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/11.png" alt=""> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/18/12.png" alt=""></br></p>
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>申请失败的原因有</p>
+<blockquote>
+<ol>
+<li>你输入的地址和ip查询的地址不符合</li>
+<li>未关闭广告屏蔽插件</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>域名</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用Hexo+GitHub搭建个人网站（1、本地安装）</title>
+    <url>/posts/a7b9bc2b/</url>
+    <content><![CDATA[<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页</p>
+<h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol>
+<li>全是静态文件，访问速度快；</li>
+<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
+<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于GitHub的；</li>
+<li>数据绝对安全，基于GitHub的版本管理，想恢复到哪个历史版本都行；</li>
+<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
+</ol>
+<h3 id="一、安装环境"><a href="#一、安装环境" class="headerlink" title="一、安装环境"></a>一、安装环境</h3><p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git</a></p>
+<blockquote>
+<p>安装成功后，在桌面右键打开 Git Bash，输入以下命令验证是否成功，成功则会出现相应的版本号。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/01.png" alt=""></p>
+<h3 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h3><p>2.1 安装</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/02.png" alt=""><br>2.2 初始化<br>在电脑新建MyHexo文件夹（名字可以随便取），这个文件夹作为你存放代码的地方，最好不要随便放。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> MyHexo</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/03.png" alt=""><br>2.3 输入以下代码开启服务，打开网址<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/04.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用GoIndex搭建GoogleDrive网站目录</title>
     <url>/posts/c56f99dc/</url>
     <content><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>使用 Goindex 不用翻墙即可访问团队盘的文件，实现在线看小姐姐。<br>由于原来的 GoIndex 已删库，现提供由他人修改并加上自己美化的GoIndex。<br>地址：<a href="https://github.com/5MayRain/goIndex-theme-nexmoe" target="_blank" rel="noopener">GitHub</a></p>
@@ -143,61 +177,19 @@
       </tags>
   </entry>
   <entry>
-    <title>GoogleDrive团队盘无限容量获取</title>
-    <url>/posts/f9e19dad/</url>
-    <content><![CDATA[<ol>
-<li><p>登录 <a href="https://mail.google.com/" target="_blank" rel="noopener">Google邮箱</a></p>
-</li>
-<li><p>选择下列的网站，哪一个都行</p>
-<blockquote>
-<p><a href="https://gdrive.zppcw.cn/" target="_blank" rel="noopener">sheffield.ac.uk</a><br><a href="https://tv.ssr.workers.dev/" target="_blank" rel="noopener">ccsf</a><br><a href="https://teamdrive.xcpx.workers.dev/" target="_blank" rel="noopener">swccd</a><br><a href="https://gd.zxd.workers.dev/" target="_blank" rel="noopener">Yesyesxx.me</a></p>
-</blockquote>
-</li>
-<li><p>填入团队盘的名称和你的Google邮箱，填完点击 Submit ，成功后登录 <a href="https://drive.google.com/?tab=wo&authuser=0" target="_blank" rel="noopener">GoogleDrive</a> 可看到</p>
-</li>
-</ol>
-<p>PS：创建成功后，团队里面只有你一个人，你就是管理员</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Google</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用Hexo+GitHub搭建个人网站（1、本地安装）</title>
-    <url>/posts/a7b9bc2b/</url>
-    <content><![CDATA[<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页</p>
-<h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ol>
-<li>全是静态文件，访问速度快；</li>
-<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
-<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于GitHub的；</li>
-<li>数据绝对安全，基于GitHub的版本管理，想恢复到哪个历史版本都行；</li>
-<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
-</ol>
-<h3 id="一、安装环境"><a href="#一、安装环境" class="headerlink" title="一、安装环境"></a>一、安装环境</h3><p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a><br><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git</a></p>
-<blockquote>
-<p>安装成功后，在桌面右键打开 Git Bash，输入以下命令验证是否成功，成功则会出现相应的版本号。</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/01.png" alt=""></p>
-<h3 id="二、安装Hexo"><a href="#二、安装Hexo" class="headerlink" title="二、安装Hexo"></a>二、安装Hexo</h3><p>2.1 安装</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/02.png" alt=""><br>2.2 初始化<br>在电脑新建MyHexo文件夹（名字可以随便取），这个文件夹作为你存放代码的地方，最好不要随便放。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> MyHexo</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/03.png" alt=""><br>2.3 输入以下代码开启服务，打开网址<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/04.png" alt=""></p>
-]]></content>
+    <title>Hexo常用命令</title>
+    <url>/posts/24caea6b/</url>
+    <content><![CDATA[<h3 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> 			<span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> 		<span class="comment">#新建页面</span></span><br><span class="line">hexo generate 				<span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server 				<span class="comment">#开启服务（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy 				<span class="comment">#部署</span></span><br><span class="line">hexo <span class="built_in">help</span>  				<span class="comment">#帮助</span></span><br><span class="line">hexo version				<span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="缩写命令"><a href="#缩写命令" class="headerlink" title="缩写命令"></a>缩写命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo n == hexo new	<span class="comment">#新建</span></span><br><span class="line">hexo g == hexo generate	<span class="comment">#生成静态网页</span></span><br><span class="line">hexo s == hexo server	<span class="comment">#开启服务</span></span><br><span class="line">hexo d == hexo deploy	<span class="comment">#部署</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="组合命令"><a href="#组合命令" class="headerlink" title="组合命令"></a>组合命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s -g <span class="comment">#生成并本地预览</span></span><br><span class="line">hexo d -g <span class="comment">#生成并上传</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
       <tags>
         <tag>教程</tag>
         <tag>Hexo</tag>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -247,13 +239,25 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo常用命令</title>
-    <url>/posts/24caea6b/</url>
-    <content><![CDATA[<h3 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> 			<span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> 		<span class="comment">#新建页面</span></span><br><span class="line">hexo generate 				<span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server 				<span class="comment">#开启服务（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy 				<span class="comment">#部署</span></span><br><span class="line">hexo <span class="built_in">help</span>  				<span class="comment">#帮助</span></span><br><span class="line">hexo version				<span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="缩写命令"><a href="#缩写命令" class="headerlink" title="缩写命令"></a>缩写命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo n == hexo new	<span class="comment">#新建</span></span><br><span class="line">hexo g == hexo generate	<span class="comment">#生成静态网页</span></span><br><span class="line">hexo s == hexo server	<span class="comment">#开启服务</span></span><br><span class="line">hexo d == hexo deploy	<span class="comment">#部署</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="组合命令"><a href="#组合命令" class="headerlink" title="组合命令"></a>组合命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s -g <span class="comment">#生成并本地预览</span></span><br><span class="line">hexo d -g <span class="comment">#生成并上传</span></span><br></pre></td></tr></table></figure>]]></content>
+    <title>Hexo使用主题</title>
+    <url>/posts/b2b596ff/</url>
+    <content><![CDATA[<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>去Hexo网站查找你喜欢的主题 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
+<li><p>例如我要的是<a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener">NexT主题</a>，这主题已经提供了代码，只需要执行即可</p>
+</li>
+<li><p>在Hexo根目录打开 Git Bash 命令窗口，输入下列命令</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/16.png" alt=""></p>
+<ol start="3">
+<li>编辑Hexo根目录的 <font color="red">_config.yml</font> 文件 ，找到<font color="red"> theme: </font> 这行，把内容修改为 <font color="red">next</font>（主题的名称）</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/17.png" alt=""></p>
+<ol start="4">
+<li>开启服务，就可以看到主题已经改变了</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s		//开启服务</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
@@ -286,31 +290,27 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo使用主题</title>
-    <url>/posts/b2b596ff/</url>
-    <content><![CDATA[<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>去Hexo网站查找你喜欢的主题 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
-<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ol>
-<li><p>例如我要的是<a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener">NexT主题</a>，这主题已经提供了代码，只需要执行即可</p>
+    <title>GoogleDrive团队盘无限容量获取</title>
+    <url>/posts/f9e19dad/</url>
+    <content><![CDATA[<ol>
+<li><p>登录 <a href="https://mail.google.com/" target="_blank" rel="noopener">Google邮箱</a></p>
 </li>
-<li><p>在Hexo根目录打开 Git Bash 命令窗口，输入下列命令</p>
+<li><p>选择下列的网站，哪一个都行</p>
+<blockquote>
+<p><a href="https://gdrive.zppcw.cn/" target="_blank" rel="noopener">sheffield.ac.uk</a><br><a href="https://tv.ssr.workers.dev/" target="_blank" rel="noopener">ccsf</a><br><a href="https://teamdrive.xcpx.workers.dev/" target="_blank" rel="noopener">swccd</a><br><a href="https://gd.zxd.workers.dev/" target="_blank" rel="noopener">Yesyesxx.me</a></p>
+</blockquote>
+</li>
+<li><p>填入团队盘的名称和你的Google邮箱，填完点击 Submit ，成功后登录 <a href="https://drive.google.com/?tab=wo&authuser=0" target="_blank" rel="noopener">GoogleDrive</a> 可看到</p>
 </li>
 </ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/16.png" alt=""></p>
-<ol start="3">
-<li>编辑Hexo根目录的 <font color="red">_config.yml</font> 文件 ，找到<font color="red"> theme: </font> 这行，把内容修改为 <font color="red">next</font>（主题的名称）</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/12/17.png" alt=""></p>
-<ol start="4">
-<li>开启服务，就可以看到主题已经改变了</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s		//开启服务</span><br></pre></td></tr></table></figure>]]></content>
+<p>PS：创建成功后，团队里面只有你一个人，你就是管理员</p>
+]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>Hexo</tag>
+        <tag>Google</tag>
       </tags>
   </entry>
   <entry>
