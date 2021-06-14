@@ -1,3 +1,62 @@
+/*友链*/
+.friendsContent {
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+	border-radius: 20px;
+	padding: 20px 0 20px 0;
+}
+.friends_item {
+	width: 86%;
+	background-color: #ffffff;
+	border-radius: 20px;
+	padding: 15px 20px;
+	margin:10px auto;
+    white-space: nowrap;
+}
+
+.friends_item:hover {
+	box-shadow: 0 0 10px rgba(40,40,40,0.2);
+}
+
+.friends_item_x2 {
+	margin-top: 20px;
+}
+
+.friends_item img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 50px;
+}
+
+.friends_text {
+	margin-left:65px;
+}
+
+
+.friends_item .friends_text h4 {
+	color: #333333;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 50px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+
+.friends_item .friends_text p {
+	width: 100%;
+    margin: 0;
+	color: #999999;
+	font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
 /*关于*/
 .accountContent {
 	width: 100%;
@@ -196,6 +255,10 @@
 }
 
 @media (max-width: 1200px){
+	.friends_item {
+		width: 90%;
+	}
+
 	.nav_content {
 		width: 92%;
 	}
@@ -206,6 +269,10 @@
 }
 
 @media (max-width: 1162px){
+	.friends_item {
+		width: 90%;
+	}
+
 	.item_spacing{
 		margin-left: 2%;
 	}
@@ -216,6 +283,10 @@
 }
 
 @media (max-width: 1047px){
+	.friends_item {
+		width: 88%;
+	}
+
 	.item_spacing{
 		margin-left: 3.5%;
 	}
@@ -226,6 +297,10 @@
 }
 
 @media (max-width: 807px){
+	.friends_item {
+		width: 85%;
+	}
+
 	.item_spacing{
 		margin-left: 4.5%;
 	}
@@ -236,6 +311,10 @@
 }
 
 @media (max-width: 700px){
+	.friends_item {
+		width: 82%;
+	}
+
 	.item_spacing{
 		margin-left: 0;
 	}
