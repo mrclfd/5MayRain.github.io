@@ -1,3 +1,209 @@
+/*代码块复制按钮*/
+.highlight{
+	position: relative;
+	border-radius: 12px;
+}
+
+.btn-copy {
+	display: inline-block;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 2px 6px;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.7rem;
+}
+
+.btn-copy img {
+	width: 1.5rem;
+	height: 1.5rem;
+	pointer-events: none;
+}
+
+.highlight:hover .btn-copy{
+	display: block;
+}
+
+figcaption div {
+	width: 0.8rem;
+	height: 0.8rem;
+	background-color: #FC625D;
+	border-radius: 1rem;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+figcaption .r2 {
+	background-color: #FDBC40;
+}
+
+figcaption .r3 {
+	background-color: #35CD4B;
+}
+
+/*下载*/
+.download_layout {
+	width: 100%;
+	height: 70px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #f0f0f0;
+	position: relative;
+	margin-top: 10px;
+}
+
+.download_layout:hover {
+	border-color: #7698E5;
+}
+
+.download_layout .download_icon1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 1rem;
+	top: 0.6rem;
+	pointer-events: none;
+}
+
+.download_layout .download_text {
+	width: 60%;
+	position: absolute;
+	left: 5.5rem;
+	top: 0.25rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.download_layout .download_text span {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1e89f2;
+}
+
+
+.download_layout .download_text p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #999999;
+}
+
+.download_layout .download_url {
+	position: absolute;
+	right: 0.8rem;
+	top: 0.95rem;
+}
+
+.download_layout .download_url .download_icon2 {
+	width: 40px;
+	height: 40px;
+	pointer-events: none;
+}
+
+/*帖子封面*/
+.post_cover {
+	width: 100%;
+	height: 56.2vw;
+	position: relative;
+	pointer-events: none;
+}
+
+.post_cover img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	z-index: 0;
+}
+
+.post_cover .post_cover_mask {
+	width: 100%;
+	height: 100%;
+	position: absolute; 
+	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+	z-index: 0;
+}
+
+.post_cover .post_text {
+	width: 90%;
+	position: absolute;
+	color: #ffffff;
+	margin: 0 auto;
+	z-index: 2;
+	left: 5vw;
+	bottom: 5rem;
+}
+
+.post_cover .post_text h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 10px;
+}
+
+.post_cover .post_text div .post-tags-list-item {
+	background-color: #333333;
+}
+
+.post_cover .post_text div .post-tags-list-item a {
+	color: #ffffff;
+	pointer-events: auto;
+}
+
+.stuff {
+	margin-bottom: 30px;
+}
+
+/*更新时间*/
+.updated {
+	width: 100%;
+	height: 50px;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	line-height: 50px;
+}
+
+.updated div {
+	width: 10px;
+	height: 50px;
+	background-color: #333333;
+	border-radius: 10px 0px 0px 10px;
+	float: left;
+	margin-right: 10px;
+}
+
+.updated span {
+	font-size: 15px;
+	color: #282828;
+}
+
+/*版权*/
+.copyright {
+	position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+
+.copyright div {
+	width: 57.7%;
+	margin: 0 auto;
+}
+
+.copyright div img {
+	display: inline;
+}
+
 /*友链*/
 .friendsContent {
 	width: 100%;
@@ -6,6 +212,7 @@
 	border-radius: 20px;
 	padding: 20px 0 20px 0;
 }
+
 .friends_item {
 	width: 86%;
 	background-color: #ffffff;
@@ -27,11 +234,15 @@
 	width: 50px;
 	height: 50px;
 	float: left;
+	border-width: 5px;
 	border-radius: 50px;
+	border-style: double; 
+	border-color: #f6f6f6;
+	;
 }
 
 .friends_text {
-	margin-left:65px;
+	margin-left:70px;
 }
 
 
@@ -40,7 +251,7 @@
 	overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    line-height: 50px;
+    line-height: 60px;
     font-weight: bold;
     display: inline;
     margin-right: 10px;
@@ -55,7 +266,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
 
 /*关于*/
 .accountContent {
@@ -255,6 +465,10 @@
 }
 
 @media (max-width: 1200px){
+	.copyright div {
+		width: 75.5%%;
+	}
+
 	.friends_item {
 		width: 90%;
 	}
@@ -269,6 +483,7 @@
 }
 
 @media (max-width: 1162px){
+
 	.friends_item {
 		width: 90%;
 	}
@@ -283,6 +498,10 @@
 }
 
 @media (max-width: 1047px){
+	.copyright div {
+		width: 78%;
+	}
+
 	.friends_item {
 		width: 88%;
 	}
@@ -294,9 +513,21 @@
 	.nav_item {
 		width: 45%;
 	}
+
+	.post_cover .post_text {
+		bottom: 3rem;
+	}
+
+	.post_cover .post_text h1 {
+		font-size: 1.8rem;
+	}
 }
 
 @media (max-width: 807px){
+	.copyright div {
+		width: 84%;
+	}
+
 	.friends_item {
 		width: 85%;
 	}
@@ -311,6 +542,10 @@
 }
 
 @media (max-width: 700px){
+	.copyright div {
+		width: 96.5%;
+	}
+
 	.friends_item {
 		width: 82%;
 	}
@@ -325,12 +560,42 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.post_cover .post_text {
+		bottom: 2rem;
+	}
+
+	.post_cover .post_text h1 {
+		font-size: 1.5rem;
+	}
 }
 
-/*@media (max-width: 600px){
-	.nav_item {
-		width: 95%;
-		margin-left: auto;
-		margin-right: auto;
+@media (max-width: 600px){
+	.copyright div {
+		width: 93%;
 	}
-}*/
+
+	.post_cover .post_text {
+		bottom: 1rem;
+	}
+
+	.post_cover .post_text h1 {
+		font-size: 1.3rem;
+	}
+
+	.article {
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 400px){
+	.copyright div {
+		width: 93.7%;
+	}
+}
+
+@media (max-width: 300px){
+	.copyright div {
+		width: 78%;
+	}
+}

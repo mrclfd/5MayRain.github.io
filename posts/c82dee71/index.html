@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>虚拟机安装 Ubuntu 20.04 - 棕果核</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="棕果核,个人博客,"> 
+    <meta name="description" content="说明本文采用 VMware Workstation 虚拟机安装，请在电脑上安装好虚拟机
+
+  
+  
+    VMware Workstation 16 Pro 下载
+    来源: 官网 
+  
+,"> 
+    <meta name="author" content="棕果核"> 
+    <link rel="alternative" href="atom.xml" title="棕果核" type="application/atom+xml"> 
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+<link rel="stylesheet" href="/css/site.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+
+    <!-- 代码块复制 -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard@latest/dist/clipboard.js"></script>
+
+    <!-- 点击效果 -->
+    
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/5MayRain/5MayRain.github.io@latest/js/fireworks.js"></script>
+    
+
+    <!-- 帖子视图 -->
+    
+        <style type="text/css">
+            .article {
+                margin-top: 0;
+            }
+    </style>
+    
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">棕果核</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://mrzgh.top"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">虚拟机安装 Ubuntu 20.04</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <!-- 帖子视图 -->
+
+    <div class="post_cover" >
+        
+            <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Posts/2021/07/05/cover_01.jpg" />
+        
+        <div class="post_cover_mask"></div>
+        <div class="post_text">
+            <h1>虚拟机安装 Ubuntu 20.04</h1>
+            <div>
+                <span>七月 05, 2021</span>
+
+                
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Ubuntu/" rel="tag">Ubuntu</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/VMware-Workstation/" rel="tag">VMware Workstation</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li></ul>
+
+
+            </div>
+        </div>
+    </div>
+
+
+<div class="article">
+    <div class='main'>
+        <!-- 帖子视图 -->
+        
+        
+        <!-- 更新时间 -->
+        <div class="updated">
+            <div></div>
+            <span>该文章更新于 2021.07.05</span>
+        </div>
+
+        <div class="content markdown">
+            <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>本文采用 <a target="_blank" rel="noopener" href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">VMware Workstation</a> 虚拟机安装，请在电脑上安装好虚拟机</p>
+<div class="download_layout">
+  <img class="download_icon1" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/01.svg" />
+  <div class="download_text">
+    <span>VMware Workstation 16 Pro 下载</span>
+    <p>来源: 官网 </p>
+  </div>
+  <div class="download_url"><a href="https://download3.vmware.com/software/wkst/file/VMware-workstation-full-16.1.2-17966106.exe" target="_blank"><img class="download_icon2" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/02.svg" /></a></div>
+</div>
+
+<br/>
+
+<p>激活密钥:<br>16版本：<br><a href="">ZF3R0-FHED2-M80TY-8QYGC-NPKYF</a></p>
+<p>15版本：<br><a href="">FC7D0-D1YDL-M8DXZ-CYPZE-P2AY6</a><br><a href="">FG78K-0UZ15-085TQ-TZQXV-XV0CD</a><br><a href="">ZA11U-DVY97-M81LP-4MNEZ-X3AW0</a><br><a href="">YU102-44D86-48D2Z-Z4Q5C-MFAWD</a></p>
+<p>12版本：<br><a href="">ZC3TK-63GE6-481JY-WWW5T-Z7ATA</a></p>
+<p>10版本：<br><a href="">1Z0G9-67285-FZG78-ZL3Q2-234JG</a></p>
+<h3 id="Ubuntu"><a href="#Ubuntu" class="headerlink" title="Ubuntu"></a>Ubuntu</h3><p><a target="_blank" rel="noopener" href="https://ubuntu.com/">Ubuntu</a> 是一个以桌面应用为主的Linux操作系统，其名称来自非洲南部祖鲁语或豪萨语的“ubuntu”一词，意思是“人性”“我的存在是因为大家的存在”，是非洲传统的一种价值观。</p>
+<div class="download_layout">
+  <img class="download_icon1" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/01.svg" />
+  <div class="download_text">
+    <span>Ubuntu 20.04.2.0 LTS 下载</span>
+    <p>来源: 官网 </p>
+  </div>
+  <div class="download_url"><a href="https://mirror.hkt.cc/ubuntu/20.04.2.0/ubuntu-20.04.2.0-desktop-amd64.iso" target="_blank"><img class="download_icon2" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/02.svg" /></a></div>
+</div>
+
+
+<h3 id="创建虚拟机"><a href="#创建虚拟机" class="headerlink" title="创建虚拟机"></a>创建虚拟机</h3><p>1、 打开VMware Workstation，创建新的虚拟机，选择<font color="red">自定义(高级)</font>，然后点击下一步<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/01.png"></p>
+<p>2、默认即可<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/02.png"></p>
+<p>3、选择 稍后安装操作系统<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/03.png"></p>
+<p>4、客户机操作系统选择 <font color="red">Linux</font>，版本 <font color="red">Ubuntu 64位</font><br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/04.png"></p>
+<p>5、输入名称，及选择安装位置<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/05.png"></p>
+<p>6、配置处理器，按照个人电脑配置选择<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/06.png"></p>
+<p>7、配置处理器，按照个人电脑配置选择<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/07.png"></p>
+<p>8、配置内存，按照个人电脑配置选择<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/08.png"></p>
+<p>9、默认即可<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/09.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/10.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/11.png"></p>
+<p>10、为虚拟机分配磁盘大小，选择 <font color="red">将虚拟磁盘存储为单个文件</font>，磁盘大小按照个人电脑配置选择<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/12.png"></p>
+<p>11、默认即可<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/13.png"></p>
+<p>12、配置系统镜像<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/14.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/15.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/16.png"></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>1、开启此虚拟机，等待加载完成<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/17.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/18.png"></p>
+<p>2、选择语言，安装Ubuntu<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/19.png"></p>
+<p>3、默认即可<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/20.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/21.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/22.png"></p>
+<p>4、选择时区<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/23.png"></p>
+<p>5、输入你的用户信息<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/24.png"></p>
+<p>6、虚拟机开始安装 Ubuntu 、等待安装完成，安装完成后重启即可<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/25.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/26.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/27.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/05/28.png"></p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                </ul>
+            
+        </div>
+        </br></br></br>
+        <center style="color: #cccccc;">-&nbsp;&nbsp;&nbsp;END&nbsp;&nbsp;&nbsp;-</center>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='false'
+        data-ci='89ba0c99dd53a9c8cd90'
+        data-cs='d4652489373fcfa5d0e3cd07c9ef39ae420324be'
+        data-r='5MayRain.github.io'
+        data-o='5MayRain'
+        data-a='5MayRain'
+        data-d='true'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+<script src="/js/codeCopy.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
