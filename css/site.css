@@ -153,7 +153,7 @@ figcaption .r3 {
 }
 
 .post_cover .post_text div .post-tags-list-item {
-	background-color: #333333;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .post_cover .post_text div .post-tags-list-item a {
