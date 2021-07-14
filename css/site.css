@@ -190,17 +190,11 @@ figcaption .r3 {
 
 /*版权*/
 .copyright {
-	position: absolute;
     width: 100%;
-    bottom: 30px;
+    text-align: center;
 }
 
-.copyright div {
-	width: 57.7%;
-	margin: 0 auto;
-}
-
-.copyright div img {
+.copyright img {
 	display: inline;
 }
 
@@ -465,9 +459,6 @@ figcaption .r3 {
 }
 
 @media (max-width: 1200px){
-	.copyright div {
-		width: 75.5%%;
-	}
 
 	.friends_item {
 		width: 90%;
@@ -498,9 +489,6 @@ figcaption .r3 {
 }
 
 @media (max-width: 1047px){
-	.copyright div {
-		width: 78%;
-	}
 
 	.friends_item {
 		width: 88%;
@@ -524,9 +512,6 @@ figcaption .r3 {
 }
 
 @media (max-width: 807px){
-	.copyright div {
-		width: 84%;
-	}
 
 	.friends_item {
 		width: 85%;
@@ -542,10 +527,6 @@ figcaption .r3 {
 }
 
 @media (max-width: 700px){
-	.copyright div {
-		width: 96.5%;
-	}
-
 	.friends_item {
 		width: 82%;
 	}
@@ -571,10 +552,6 @@ figcaption .r3 {
 }
 
 @media (max-width: 600px){
-	.copyright div {
-		width: 93%;
-	}
-
 	.post_cover .post_text {
 		bottom: 1rem;
 	}
@@ -585,17 +562,5 @@ figcaption .r3 {
 
 	.article {
 		margin-top: 0px;
-	}
-}
-
-@media (max-width: 400px){
-	.copyright div {
-		width: 93.7%;
-	}
-}
-
-@media (max-width: 300px){
-	.copyright div {
-		width: 78%;
 	}
 }

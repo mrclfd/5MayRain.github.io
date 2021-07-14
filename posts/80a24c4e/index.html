@@ -45,15 +45,6 @@
     <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/5MayRain/5MayRain.github.io@latest/js/fireworks.js"></script>
     
-
-    <!-- 帖子视图 -->
-    
-        <style type="text/css">
-            .article {
-                margin-top: 0;
-            }
-    </style>
-    
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body class="loading">
@@ -128,7 +119,7 @@
 <blockquote>
 <p>打开cmd命令窗口，输入以下命令，出现下图输出则安装成功，否则重复上述操作</p>
 </blockquote>
-<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet=""><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone --version</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone --version</span><br></pre></td></tr></table></figure>
 <p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/03.png"></p>
 </br>
 4.  配置rclone
@@ -136,9 +127,9 @@
 <blockquote>
 <p>输入以下命令</p>
 </blockquote>
-<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet=""><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone config	<span class="comment">#配置</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rclone config	<span class="comment">#配置</span></span><br></pre></td></tr></table></figure>
 <p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/04.png"></p>
-<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet=""><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">n	<span class="comment">#新建远程连接</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">n	<span class="comment">#新建远程连接</span></span><br></pre></td></tr></table></figure>
 <p><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2020/05/22/05.png"></p>
 <blockquote>
 <p>给创建的连接取名，我要挂载的是 OneDrive 我就取 OneDrive</p>
@@ -187,7 +178,7 @@
 <blockquote>
 <p>下列代码后面加入 <font color="red">&amp;</font> 符号，代表程序后台运行，不然关掉命令窗口，程序也会关掉</p>
 </blockquote>
-<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet=""><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 挂载为文件夹</span></span><br><span class="line"><span class="comment"># OneDrive 是你取得名</span></span><br><span class="line"><span class="comment"># D:\OneDrive 是要挂载文件夹的路径</span></span><br><span class="line">rclone mount OneDrive: D:\OneDrive --allow-other --vfs-cache-mode writes --allow-non-empty</span><br><span class="line"></span><br><span class="line"><span class="comment"># 挂载为磁盘</span></span><br><span class="line"><span class="comment"># OneDrive 是你取得名</span></span><br><span class="line"><span class="comment"># O: 是要挂载磁盘的盘符</span></span><br><span class="line"><span class="comment"># D:\OneDriveTemp 是缓存目录</span></span><br><span class="line">rclone mount OneDrive:/ O: --cache-dir D:\OneDriveTemp --vfs-cache-mode writes</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 挂载为文件夹</span></span><br><span class="line"><span class="comment"># OneDrive 是你取得名</span></span><br><span class="line"><span class="comment"># D:\OneDrive 是要挂载文件夹的路径</span></span><br><span class="line">rclone mount OneDrive: D:\OneDrive --allow-other --vfs-cache-mode writes --allow-non-empty</span><br><span class="line"></span><br><span class="line"><span class="comment"># 挂载为磁盘</span></span><br><span class="line"><span class="comment"># OneDrive 是你取得名</span></span><br><span class="line"><span class="comment"># O: 是要挂载磁盘的盘符</span></span><br><span class="line"><span class="comment"># D:\OneDriveTemp 是缓存目录</span></span><br><span class="line">rclone mount OneDrive:/ O: --cache-dir D:\OneDriveTemp --vfs-cache-mode writes</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>提示 <font color="red">The service rclone has been started.</font> 则挂载成功</p>
 </blockquote>
