@@ -493,6 +493,90 @@
       </tags>
   </entry>
   <entry>
+    <title>MIUI12.5 破解卡米</title>
+    <url>/posts/2b1d269d/</url>
+    <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><ol>
+<li>本文使用的 Rom 包为 <font color="#1e89f2">MIUI12.5 21.6.30</font></li>
+<li>需要 <a href="/posts/f69b264e/">D.N.A</a> 工具进行解包</li>
+<li>编辑工具为 <font color="#1e89f2">MT管理器</font><div class="download_layout">
+<img class="download_icon1" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/01.svg" />
+<div class="download_text">
+ <span>MT管理器 下载</span>
+ <p>来源: 酷安</p>
+</div>
+<div class="download_url"><a href="https://www.coolapk.com/apk/bin.mt.plus" target="_blank"><img class="download_icon2" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/02.svg" /></a></div>
+</div></li>
+<li><font color="#1e89f2">D.N.A</font> 需要在 <a href="/posts/67ae9c91/">Ubuntu</a> 环境使用，本文使用的为 <font color="#1e89f2">Windows10</font> 下的子系统</li>
+</ol>
+<br>
+
+<h3 id="二、解包"><a href="#二、解包" class="headerlink" title="二、解包"></a>二、解包</h3><ol>
+<li>把 <font color="#1e89f2">Rom</font> 包拷贝到你所安装 <font color="#1e89f2">D.N.A</font> 的路径<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/06.png"></li>
+</ol>
+<br>
+
+<ol start="2">
+<li>在路径框输入 <font color="#1e89f2">bash</font> 启动子系统，然后子系统输入 <font color="#1e89f2">su</font> 获取root权限<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/07.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/08.png"></li>
+</ol>
+<br>
+
+<ol start="3">
+<li>输入 <font color="#1e89f2">python3 run.py</font> 启动 <font color="#1e89f2">D.N.A</font> 工具<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="code"><pre><span class="line">python3 run.py</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/09.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/10.png"></li>
+</ol>
+<br>
+
+<ol start="4">
+<li>输入 <font color="#1e89f2">33</font> 选择 <font color="#1e89f2">Rom</font> 包前面的序号进行解压，解压需要时间，请耐心等待<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/11.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/12.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/13.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/14.png"></li>
+</ol>
+<br>
+
+<ol start="5">
+<li>打开解压好的工程文件夹，把 <font color="#1e89f2">/system/system/framework/services.jar</font> 文件用MT管理器打开<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/15.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/16.png"> </li>
+</ol>
+<br>
+
+<ol start="6">
+<li>点击任意一个 <font color="#1e89f2">dex</font> 文件，选择 <font color="#1e89f2">Dex编辑器++</font>，全选然后确定<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/17.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/18.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/19.png"></li>
+</ol>
+<br>
+
+<ol start="7">
+<li>打开后，依次打开 <font color="#1e89f2">com/miui/server</font> 找到 <font color="#1e89f2">SecurityManagerService</font> ，打开后搜索 <font color="#1e89f2">.method private checkSystemSelfProtection(Z)V</font>，删除 line 中间的内容，然后保持退出<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/20.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/21.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/22.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/23.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/24.png"></li>
+</ol>
+<br>
+
+<ol start="8">
+<li>把修改好的 <font color="#1e89f2">services.jar</font> 拷贝，替换原来的文件，回到子系统，输入 <font color="#1e89f2">08</font> 再输入 <font color="#1e89f2">1</font> 开始合成，等待打包为br格式<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/25.png"></li>
+</ol>
+<br>
+
+<ol start="9">
+<li>合成完毕后输入 <font color="#1e89f2">09</font> 再输入 <font color="#1e89f2">1</font>，再根据需求选择是否删除源文件或工程包，输入后等待打包为zip刷机包，打包好的刷机包在源文件目录下<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/26.png"> <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/27.png"></li>
+</ol>
+<br>
+
+<ol start="10">
+<li>打包完后，ROM会缺少 <font color="#D64B4D">boot.img</font> 和 <font color="#D64B4D">exaid.img</font> 镜像文件，只需要把这两个文件添加进去即可<br><img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/15/28.png"></li>
+</ol>
+<br>
+
+<ol start="11">
+<li>用工具打包的ROM，包里会缺少一部分刷机脚本，只需要删除ROM包里的 <font color="#1e89f2">META-INF</font> 文件夹， 再把官方ROM包里的 <font color="#1e89f2">META-INF</font> 文件夹，添加进去即可</li>
+</ol>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Android</tag>
+        <tag>Ubuntu</tag>
+        <tag>D.N.A</tag>
+        <tag>MIUI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在电脑上使用 Ubuntu 安装 Droid Normal Assistant</title>
     <url>/posts/f69b264e/</url>
     <content><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><h4 id="Droid-Normal-Assistant"><a href="#Droid-Normal-Assistant" class="headerlink" title="Droid Normal Assistant"></a>Droid Normal Assistant</h4><p>安卓一般固件解包打包助手， 简称： <a href="https://gitee.com/sharpeter/DNA">D.N.A</a></p>
