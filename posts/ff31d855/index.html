@@ -98,22 +98,24 @@
         <!-- 更新时间 -->
         <div class="updated">
             <div></div>
-            <span>该文章更新于 2021.07.17</span>
+            <span>该文章更新于 2021.07.20</span>
         </div>
 
         <div class="content markdown">
             <h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><ol>
 <li>本帖基于 <a target="_blank" rel="noopener" href="https://github.com/Fechin/hexo-theme-diaspora">Diaspora主题</a> 进行魔改美化方案编写</li>
 <li>因每个人的目录都不同，设定博客根目录为 <font color="#1e89f2">Blogroot</font>，主题根目录为 <font color="#1e89f2">Themeroot</font></li>
-<li>本帖使用的工具为 <font color="#1e89f2">Sublime Text</font><div class="download_layout">
-<img class="download_icon1" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/01.svg" />
-<div class="download_text">
- <span>Sublime Text 下载</span>
- <p>来源: 官网</p>
-</div>
-<div class="download_url"><a href="http://www.sublimetext.com/download" target="_blank"><img class="download_icon2" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/02.svg" /></a></div>
-</div></li>
+<li>本帖使用的工具为 <font color="#1e89f2">Sublime Text</font></li>
 </ol>
+<div class="download_layout">
+  <img class="download_icon1" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/01.svg" />
+  <div class="download_text">
+    <span>Sublime Text 下载</span>
+    <p>来源: 官网</p>
+  </div>
+  <div class="download_url"><a href="http://www.sublimetext.com/download" target="_blank"><img class="download_icon2" src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/icon/Download/02.svg" /></a></div>
+</div>
+
 <h3 id="一、帖内显示封面"><a href="#一、帖内显示封面" class="headerlink" title="一、帖内显示封面"></a>一、帖内显示封面</h3><ol>
 <li>打开 <font color="#1e89f2">Themeroot/_config.yml</font>，在里面添加 <font color="#1e89f2">帖子封面视图</font> 的配置<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 帖子视图 ( cover、text、all)</span></span><br><span class="line"><span class="comment"># 设定有三种视图，cover 为封面视图（标题在封面内显示），text 为默认的视图，all 为两者同时显示（封面跟标题分开显示）</span></span><br><span class="line">postview: <span class="string">&#x27;cover&#x27;</span></span><br></pre></td></tr></table></figure>
 <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/14/01.png"></li>
@@ -195,6 +197,18 @@
 <ol start="6">
 <li>打开 <font color="#1e89f2">Themeroot/layout/_partial/scripts.ejs</font>，在里面加入 <font color="#1e89f2">codeCopy.js</font><figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">js/codeCopy.js</span><br></pre></td></tr></table></figure>
 <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/14/13.png"></li>
+</ol>
+<br>
+
+<h3 id="四、添加点击效果"><a href="#四、添加点击效果" class="headerlink" title="四、添加点击效果"></a>四、添加点击效果</h3><ol>
+<li>打开 <font color="#1e89f2">Themeroot/_config.yml</font>，在里面添加 <font color="#1e89f2">点击效果</font> 的配置<figure class="highlight bash"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>BASH</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 点击效果</span></span><br><span class="line">fireworks: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/20/05.png"></li>
+</ol>
+<br>
+
+<ol start="2">
+<li>打开 <font color="#1e89f2">Themeroot/layout/_partial/head.ejs</font>，添加下面的代码<figure class="highlight html"><figcaption><div></div><div class="r2"></div><div class="r3"></div><span>HTML</span></figcaption><button class="btn-copy" data-clipboard-snippet="" title="复制"><img src="//cdn.jsdelivr.net/gh/5MayRain/ImageHosting@latest/Blog/Website/icon/copy.svg" /></button><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 点击效果 --&gt;</span></span><br><span class="line">&lt;% if (theme.fireworks)&#123; %&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">canvas</span> <span class="attr">class</span>=<span class="string">&quot;fireworks&quot;</span> <span class="attr">style</span>=<span class="string">&quot;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;&quot;</span> &gt;</span><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//cdn.bootcss.com/animejs/2.2.0/anime.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//cdn.jsdelivr.net/gh/5MayRain/5MayRain.github.io@latest/js/fireworks.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Posts/2021/07/20/06.png"></li>
 </ol>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
