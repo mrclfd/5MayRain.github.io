@@ -1,4 +1,4 @@
-/*页面载入完成后，创建复制按钮*/
+/* 页面载入完成后，创建复制按钮 */
 !function (e, t, a) { 
   /* code */
   var initCopyCode = function(){

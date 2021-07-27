@@ -46,6 +46,7 @@ figcaption .r3 {
 	background-color: #35CD4B;
 }
 
+
 /*下载*/
 .download_layout {
 	width: 100%;
@@ -109,6 +110,7 @@ figcaption .r3 {
 	pointer-events: none;
 }
 
+
 /*帖子封面*/
 .post_cover {
 	width: 100%;
@@ -165,6 +167,7 @@ figcaption .r3 {
 	margin-bottom: 30px;
 }
 
+
 /*更新时间*/
 .updated {
 	width: 100%;
@@ -188,6 +191,7 @@ figcaption .r3 {
 	color: #282828;
 }
 
+
 /*版权*/
 .copyright {
     width: 100%;
@@ -197,6 +201,7 @@ figcaption .r3 {
 .copyright img {
 	display: inline;
 }
+
 
 /*友链*/
 .friendsContent {
@@ -261,6 +266,7 @@ figcaption .r3 {
     white-space: nowrap;
 }
 
+
 /*关于*/
 .accountContent {
 	width: 100%;
@@ -302,6 +308,7 @@ figcaption .r3 {
 	margin-left:10px;
 	font-weight: bold;
 }
+
 
 /*导航*/
 .navContent {
