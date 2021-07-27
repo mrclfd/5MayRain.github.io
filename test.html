@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <title>测试</title>
+    <style type="text/css">
+    /*隐藏滚动条*/
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Icon font style */
+    @font-face {
+        font-family: "iconfont";
+        src: url(//at.alicdn.com/t/font_1679264_tle9h9614mq.eot?t=1583722241347);
+        src: url(//at.alicdn.com/t/font_1679264_tle9h9614mq.eot?t=1583722241347#iefix) format("embedded-opentype"), url(data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAi8AAsAAAAAECAAAAhtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCEbgqQdI0WATYCJAM8CyAABCAFhG0HgRkbVw3Inpo8CYIQIpAQFdqG+3gInq/9Xs+9uw8+oUtSRgVECtF2KoOqgOAAHQGEbes6+wNt898F4Z31ldA+7aWxbFgFsSjEIzbg2HHMZQlbH7lIY7iKIFbhj+gckPwvEvGDNVdFtDOxtl7e5AYcpp5UkyYiIYloHUk1QyNkSm+AgHg2w8FyPnoIJ0OAKKW0BhmuGKoCMRYpCZVWmY06EA+EYad4CmGQ79nRgmwGj1Br0XvApvTnpYleIgYUz4A81eQlA6qhdy3U1ppF/1cwy/BQsb4YoLYYGKALgK2ZLntDzoIsHW+MaE1LDVAkOfgL/Fr7Wfazgs/afFb52eDPhn427rNJn9U6B7VAW3JuoUiO+gceECFKnARJLIYYHgEhPoqA+IAcD22v5iehFowBEahFkCiAgsQBDCQB4NDLQQoSo1CAxHzQBiQGVIJ4wGCQABgKEgLjQHxgEogCtbD3lJxyO5QCdAC0CjAzQZqmp3GCXmnZ3H0JipeXDZA2KSxeLirsLPESmzR8II4LRTQeH6+jZfGiZHOSTC4kxDkM3vo9vD8gpasjLU9dg9xIa/k2B2UGIzllAYnaLXf4FstYb3E8oUfqmTvDPoWoDy1uKiHr9i5qtCbGVkmedsLlSZJu56REq6Su2Oe9wNzqNka6TMP7pai/kHB5EWSxV0bwPGA2lxFeL4L5gjLeD3qgA+me8KRJ0uOB6QdI8iSCLQ4aEyN/1LHPtdHPNOFmK4ESGIGQyLaYloTo2j1pQM5NwhN10agm+lIb+6iORNTh5skSXrLn3I50V3FUE2rplfFp/p0tPB4pLwvNL9tyuEVdEX9CFjhfVFfCF55qv+dYsbSu6HiH47FOsZh2e06rplbH2vvkTbmSxvahO4U7IMSkg/tNDlS8V7n2ldr76J6xmL2c0Uc19eHG/A3XcG8oWhhWP4KKN+rGrHDf6EC+7rQ027P39PVOh1ibd8miL6aTOGGk2TuPpCWKFbLGORI2UqVkSF54EOQOUD0pnJFVAkFFjp4eaZh7EjzDzSrzxD4fywMVZ4oSGpoyMa9Xomp0tdR4ecbC81La45YbfcG5i5VwhbtfiBIL1/QAB7pKI++L/Edp+Kj1yeW+zO25iM/I1wc3y8nTEs6ry43dAdixW+3yBn2kry7gl5CR5WJLD7Mbi6ndndSVZ2O50WjV4DF2RrqotHXHSTKYEYupyejbSfsmavfzQBBunoskGkdX02MMoqOjRtWo1f/riWpGjSrGV/+v8BwYDnQV6eeuOZl9cu7qmweSWcmbU9FUv2y22h6Ory2jaktqqbLkQEngEPSq0G67SJey1NrS2tSylEBp4HBli4Yc257Zq0MLk37jwMh9fvU0lLsk73QwGKgI/eKXif+v9/1twov4p+lFl4ajg0H3/N0oVEs+2tOtzS2pZPQhtxjuJrTd86j1WGQU/F8O/qEF9RwXk6gW+PPy4HO/nTjCNaLvzL5DM7tMGIMa2MFEa1WYICQPsyikDm2F/40DNnTd2LWFzW63tci+zvqejf/IAfxZi1zjqx+/OTv+a2v2SU3qgE69cbVibR/ba6X61oBF7OPINfTPG12ruJE714RuF1P/dui9El1SWZdR0tN0eyJ6b2HugnVyy6z03suy2vbX08921/+gT/vLwJplI8+vWnV+5CNNJETxTE0NVwh/O7FThCPI4h4hNnXGkknahb0yFIf7yH6+f2jTuoYryozLmUppb0Y7iVnskLzyT5ek9JyQbsjpvDYyxI36+1ULsPypopG+9hfE0Pdlv/p+I+vsQtDlcEbzgO3bB3y3zQjNeSwxorkaNqL/mI349v3bw9ZKHr1xF/NgvBP5mCAA5VHPop6xHBoIoBzqCAStJxoM/iIXDEyeJJHMTJUAZRadYqa8sh77k+atkzaVR8o345nh56sf3FF1GX3/nvOzLCcJh6+ZxVj/pP5iQafJ0G0qgjLr+Olo+9ktOnY0QvucGHgiKCMQYaRcB22k/jhwNfvUEHg2dqWyU6eFIz8KBQIY/2PjuHG7LyVccvHIf0e4OcF87Gp84g+JLt/77SS+1ovEkrgx6zcuamjkDhIb/1xYbejq8YhjKqJUd+6cOhYpjffLI4u7KrqgA2omDzxmQtx2VF1ZMfpG+kBVS81yuXS2WKByGlWQEeu/crzw33eaXyZ+prGy/Gfi9iuy+LMSCtofmTCi/yfJNYzdzhhSUmB2IwDukzpMCrgXFFgxAOYk+gW4WldMBuC2WASbBQD6SJ/6rIOn+20b1hfA/XMJIwAwY9Gf/7dWot+TL7pNSer+N4z9lmV+dD9H0pT/m69YX0UeIES/UMC/FFqYYuH4LifFVK8LmCG6Zj8DvabAFPMRxSm8LfvAf1RSljfbCy58W2OEcICpKZWAEqUhpI2lte2i9IjRR+kTMkgZpTPK3WPkYMEQGwfQieVCKaQ5qFSSXBONz/a+aLF9rfQo8q3g4yqYMspMST1gjHZiJvqxtI6jq6mq2ZRZz9gMOpIjssqjaaPTomMDLlpLQ7MOM2OjKtqW9wuVtI1m17GJY6axkuMMlIFlrJRCbEBbLAxlZ5lptJ5ra6LA3rWszNDYtK2esQLBMFhodHBOuxqKKmYbm9HDYMMwMQcx8v2joTHixIIOdkqrHWMNNCwOzPOnqKAt5XNYKmXbXK3uS00HMzFSCRfEGKBMQxYGKxSKIIbGovIYKOz+5aZBo4ejLaYlcux0pSzoyDCv3Hb7JuvtPguIIo+QEhTBEBwRIEJEhIiROORzf7F4JAFJRJKQZAQLLYyDxu0W3WzcStucuIlJDiI26PR0FcNMF3E1Zo6jWaFRlDQ5qwR2nXPGS3HodTahg9axepOAturMFtxink4La2i9ScfhFtrAAQAAAA==) format("woff2"), url(//at.alicdn.com/t/font_1679264_tle9h9614mq.woff?t=1583722241347) format("woff"), url(//at.alicdn.com/t/font_1679264_tle9h9614mq.ttf?t=1583722241347) format("truetype"), url(//at.alicdn.com/t/font_1679264_tle9h9614mq.svg?t=1583722241347#iconfont) format("svg")
+    }
+
+    @font-face {
+    	font-weight: 400;
+    	font-family: 'Material Icons';
+    	font-style: normal;
+    	src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/icons/material-icons/MaterialIcons-Regular.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/icons/material-icons/MaterialIcons-Regular.woff) format('woff')
+	}
+
+    .titleBar {
+        background-color: #ffffff;
+        color: #333333;
+        position: relative;
+        box-shadow: 0 0 10px #eeeeee;
+    }
+
+    .titleBar_container {
+        width: 100%;
+        height: 3.5rem;
+        align-items: stretch;
+        display: flex;
+        max-width: 70%;
+        flex-grow: 1;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .titleBar_avatar {
+        min-height: 3.5rem;
+        align-items: stretch;
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    .titleBar_item {
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: block;
+        position: relative;
+    }
+
+    .titleBar .titleBar_container .titleBar_avatar img {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-width: 4px;
+        border-radius: 2.5rem;
+        border-style: solid;
+        border-color: #ebe8e8;
+        position: absolute;
+        top: 0.25rem;
+        transition: 1.2s;
+    }
+
+    .titleBar .titleBar_container .titleBar_avatar img:hover {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+
+    .titleBar_nav {
+        flex-grow: 1;
+        flex-shrink: 0;
+        align-items: stretch;
+        display: flex;
+    }
+
+    .titleBar_nav_end {
+        justify-content: flex-end;
+        margin-left: auto;
+        align-items: stretch;
+        display: flex;
+    }
+
+    .titleBar_nav_end a {
+        text-decoration: none;
+    }
+
+    .titleBar_nav_end .titleBar_item {
+        align-items: stretch;
+        display: flex;
+    }
+
+    .titleBar_link {
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        line-height: 1.5;
+        padding: .5rem .75rem;
+        position: relative;
+    }
+
+    .titleBar_link>i {
+        color: #333;
+        display: inline-block;
+        font-family: iconfont, Material Icons !important;
+        font-size: 1.6rem;
+        font-style: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .titleBar_link>i:before {
+        content: "\E623";
+    }
+
+    .titleBar_item a:hover {
+        background-color: #333;
+    }
+
+    .titleBar_item a:hover i {
+        color: #fff;
+    }
+
+    .titleBar_menu:hover div {
+        display: block;
+    }
+
+    .search_bar:hover form {
+        display: block;
+    }
+
+    .titleBar_pan:hover div{
+    	display: block;
+    }
+
+    .panBar_link>i {
+    	padding-top: 8px;
+    	font-size: 1.8rem;
+    }
+
+    .panBar_link>i:before {
+        content: "\E871";
+    }
+
+    .searchBar_link>i:before {
+        content: "\e601";
+    }
+
+    .titleBar_exhibit {
+        background-color: #fff;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top: 2px solid #333;
+        box-shadow: 0 8px 8px rgba(10, 10, 10, .1);
+        display: none;
+        position: absolute;
+    }
+
+    .searchBar_form {
+        top: 100%;
+        right: 0;
+        text-align: center;
+    }
+
+    .searchBar_form input {
+    	width: 20rem;
+        height: 2rem;
+        margin: 10px 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 2rem;
+        border-color: #666;
+        padding: 0 15px;
+        outline: none;
+    }
+
+    .searchBar_form input:focus {
+    	border-color: #333;
+    }
+
+    .menu_list {
+        font-size: .875rem;
+        right: 0;
+        width: 8rem;
+        top: 100%;
+        padding: 10px auto;
+    }
+
+	.menu_list p {
+    	color: #000;
+    	padding: 10px 0;
+    	font-weight: bold;
+    	font-size: 0.8rem;
+    	text-align: center;
+    	border-bottom: 1px solid #fafafa;
+	}
+
+    .menu_list .menu_list_item {
+        color: #333;
+        display: block;
+        text-align: center;
+        line-height: 2.5rem;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .menu_list .menu_list_item:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .titleBar_container {
+            max-width: 860px;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .titleBar_container {
+            max-width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 780px) {
+        .titleBar_container {
+            max-width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .titleBar_container {
+            max-width: 95%;
+        }
+
+        .searchBar_form {
+        	width: 100vw;
+            right: -14vw;
+        }
+
+        .searchBar_form input {
+        	width: 85vw;
+        	margin: 10px auto;
+        }
+
+        .panBar_link>i {
+    		padding-top: 4px;
+    	}
+
+    	.titleBar_item a:first-child {
+    		padding-top: 14px;
+    	}
+    }
+    </style>
+</head>
+
+<body>
+    <header class="titleBar">
+        <dir class="titleBar_container">
+            <div class="titleBar_avatar">
+                <a class="titleBar_item" href="/">
+                    <img src="https://cdn.jsdelivr.net/gh/5MayRain/ImageHosting/Blog/Website/avatar.png">
+                </a>
+            </div>
+            <div class="titleBar_nav">
+                <div class="titleBar_nav_end">
+                    <div class="titleBar_item titleBar_pan">
+                        <a class="titleBar_link panBar_link"><i></i></a>
+                        <div class="menu_list titleBar_exhibit">
+                        	<p>Netdisc Drive</p>
+                            <a class="menu_list_item" href="/">root</a>
+                            <a class="menu_list_item" href="/">GKD</a>
+                        </div>
+                    </div>
+                    <div class="titleBar_item search_bar">
+                        <a class="titleBar_link searchBar_link" onclick="if($('.search_bar').hasClass('searchBar_link') && $('.searchBar_form>input').val()) $('.searchBar_form').submit();">
+                            <i class="mdui-icon material-icons"></i>
+                        </a>
+                        <form class="searchBar_form titleBar_exhibit" method="get" action="/${cur}:search">
+                            <input type="text" name="q" placeholder="Search in current drive" value="${search_text}" />
+                        </form>
+                    </div>
+                    <div class="titleBar_item titleBar_menu">
+                        <a class="titleBar_link"><i></i></a>
+                        <div class="menu_list titleBar_exhibit">
+                        	<p>Menu</p>
+                            <a class="menu_list_item" href="/">博客</a>
+                            <a class="menu_list_item" href="/">登录</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </dir>
+    </header>
+    <p class="player">
+        
+    </p>
+</body>
+
+</html>
